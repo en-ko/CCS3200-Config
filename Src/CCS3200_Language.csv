@@ -1,571 +1,560 @@
 Device_Version,Description,Max_Char,TR,EN,RU,UKR
-,#MSG_GROUP_SUPPLY#,7,Besleme,Power  ,Питание,Живл.
-,#MSG_GROUP_SUPPLY#,7,Sensor ,Sensor ,Датчик,Датчик
-,#MSG_GROUP_PHASE#,4,Vr =,Vr =,Vr =,Vr =
-,#MSG_GROUP_PHASE#,4,Vs =,Vs =,Vs =,Vs =
-,#MSG_GROUP_PHASE#,4,Vt =,Vt =,Vt =,Vt =
-,#MSG_GROUP_PHASE#,4,Fr =,Fr =,Fr =,Fr =
-,#MSG_GROUP_COMPSTATE#,12,DURACAK,STOPPING,Остановка,Зупинка
-,#MSG_GROUP_COMPSTATE#,12,IC BAS.YUKS.,HIGH INT.PR.,Выс вх. давл,Вис вх. тиск
-,#MSG_GROUP_COMPSTATE#,12,ON ISITMA BO,PREHEAT OFLD,ПреднагрРазг,ПопереднагрР
-,#MSG_GROUP_COMPSTATE#,12,ON ISITMA YU,PREHEAT ONLD,ПреднагрНагр,ПопереднагрН
-,#MSG_GROUP_COMPSTATE#,12,CALISMA GCKM,START DELAY,Задерж пуска,ЗатримкаПуск
-,#MSG_GROUP_COMPSTATE#,12,BOSTA,IDLE,Пусто,Пусто
-,#MSG_GROUP_COMPSTATE#,12,HAVA TAHLIYE,DISCHARGE,Разгрузка,Розвант
-,#MSG_GROUP_COMPSTATE#,12,DURUYOR,READY,Остановлен,Зупинений
-,#MSG_GROUP_COMPSTATE#,12,YUKE GECIYOR,ON LOADING,В загрузке,В завант
-,#MSG_GROUP_COMPSTATE#,12,YUKTE,ONLOAD,Загрузка,Завант
-,#MSG_GROUP_COMPSTATE#,12,BOSTA,IDLE,Пусто,Пусто
-,#MSG_GROUP_COMPSTATE#,12,BOSTA,IDLE,Пусто,Пусто
-,#MSG_GROUP_COMPSTATE#,12,Oto. Bekleme,Auto Waiting,Авто ожидан,Авто Очік
-,#MSG_GROUP_COMPSTATE#,12,Motor Yolver,Motor Start,Старт двиг.,СтартДвигун
-,#MSG_GROUP_COMPSTATE#,12,BOSTA (S.Kalkis),IDLE (SSL)      ,Мак кол пуск,Макс кіл.зап
-,#MSG_GROUP_PARAMS#,16,Basinc,Pressure,Давление,Тиск
-,#MSG_GROUP_PARAMS#,16,Zamanlama,Timer,Таимер,Таймер
-,#MSG_GROUP_PARAMS#,16,Dijital Giris,Digital Inputs,Цифр. входы,Цифр. Входи
-,#MSG_GROUP_PARAMS#,16,Dijital Cikis,Digital Outputs,Цифр выходы,Цифр.Виходи
-,#MSG_GROUP_PARAMS#,16,Bakım Sureleri,Maint. Timer,Таимеры ТО,Таймери ТО
-,#MSG_GROUP_PARAMS#,16,Kalibrasyon,Calibration,Калибровка,Калібруван
-,#MSG_GROUP_PARAMS#,16,Sicaklik,Temperature,Температура,Температура
-,#MSG_GROUP_PARAMS#,16,Sebeke,Mains Supply,Питание сети,Живлення
-,#MSG_GROUP_PARAMS#,16,Genel Ayarlar,General Settings,Общие настр.,Загальні нал
-,#MSG_GROUP_PARAMS#,16,Invertor Ayar,Inverter Sets. ,инвертор настр.,Інвертор нал
-,#MSG_GROUP_PARAMS#,16,Par. Kontrol,Par. Control,Par. Control,Пар.Контроль
-,#MSG_GROUP_PRESS#,16,Basinc Sens. Tip ,Press.Sensor Typ ,Тип датчи. давл.,Тип датчик тис.
-,#MSG_GROUP_PRESS#,5,P001>,P001>,P001>,P001>
-,#MSG_GROUP_PRESS#,16,Bosa Gecme Bsn. ,Stop Pressure   ,Давл. остан.,Тиск зупинки
-,#MSG_GROUP_PRESS#,5,P002>,P002>,P002>,P002>
-,#MSG_GROUP_PRESS#,16,Yuke Gecme Bsn.,Start Pressure ,Давл. пуска,Тиск запуск
-,#MSG_GROUP_PRESS#,5,P003>,P003>,P003>,P003>
-,#MSG_GROUP_PRESS#,16,Cikis Bsn. Alarm,High Press.Alarm,Трев. Выс. Давл,Трив. Вис. Тиск  
-,#MSG_GROUP_PRESS#,5,P004>,P004>,P004>,P004>
-,#MSG_GROUP_PRESS#,16,Cikis Bsn. Uyari,High Press. Warn ,Предуп. Выс Давл,Попер. Вис. Тиск
-,#MSG_GROUP_PRESS#,5,P005>,P005>,P005>,P005>
-,#MSG_GROUP_PRESS#,16,ic Bsn Sensor ,2nd Press.Sensor ,2-и датчик давл.,2-й датчик тиску
-,#MSG_GROUP_PRESS#,5,P006>,P006>,P006>,P006>
-,#MSG_GROUP_PRESS#,16,Min Ic Bas Bsn.,Min Int. Press.,Внутрн. Давление,Внутрішній тиск
-,#MSG_GROUP_PRESS#,5,P007>,P007>,P007>,P007>
-,#MSG_GROUP_PRESS#,16,Ic Bsn. Ariza  ,H.Int.Pres.Alarm,Трев. Выс. Внут,Трив.Вис.ВнутрТ
-,#MSG_GROUP_PRESS#,5,P008>,P008>,P008>,P008>
-,#MSG_GROUP_PRESS#,16,Ic Bsn. Uyari  ,H.Int.Press.Warn,Предуп Выс Внут,Попер.Вис.ВнутТ
-,#MSG_GROUP_PRESS#,5,P009>,P009>,P009>,P009>
-,#MSG_GROUP_PRESS#,16,Basinc Birim    ,Pressure Unit  ,Измер. Давления,Одиниця тиску.
-,#MSG_GROUP_PRESS#,5,P010>,P010>,P010>,P010>
-,#MSG_GROUP_PRESS#,16,Basinc Farki Arz,DeltaPress Alarm,Трев разн. Давл.,Трив різн. Тиск
-,#MSG_GROUP_PRESS#,5,P011>,P011>,P011>,P011>
-,#MSG_GROUP_PRESS#,16,Basinc Farki Uyr,DeltaPress Warn ,Пред разн. Давл.,Попер.Різн.Тиск
-,#MSG_GROUP_PRESS#,5,P012>,P012>,P012>,P012>
-,#MSG_GROUP_PRESS#,16,Yeterlilik Bsn. ,SufficiencyPress,Достато.давление,Достатній тиск
-,#MSG_GROUP_PRESS#,5,P013>,P013>,P013>,P013>
-,#MSG_GROUP_PRESS#,16,Stand. Bsn Yukle,Stand.Press Load,Выбор.Уров.Давл.,Вибір рівняТиск
-,#MSG_GROUP_PRESS#,5,P014>,P014>,P014>,P014>
-,#MSG_GROUP_TIME#,16,Baslama Gecikme.,Start Delay,Задержка запуска,Затримка запуск
-,#MSG_GROUP_TIME#,5,P021>,P021>,P021>,P021>
-,#MSG_GROUP_TIME#,16,Durma Suresi    ,Stopping Time   ,Время остановки,Час зупинки
-,#MSG_GROUP_TIME#,5,P022>,P022>,P022>,P022>
-,#MSG_GROUP_TIME#,16,Hava Tahliye   ,Discharge   ,Сброс воздуха,Скидання повітр
-,#MSG_GROUP_TIME#,5,P023>,P023>,P023>,P023>
-,#MSG_GROUP_TIME#,16,YuktenOnceBekle,Delay For Load    ,Задержка загруз,Затримка завант
-,#MSG_GROUP_TIME#,5,P024>,P024>,P024>,P024>
-,#MSG_GROUP_TIME#,16,Tekrar YukeGecme,PassAgain Onload,НагрНаХолХоду,НавантНаХолХоді
-,#MSG_GROUP_TIME#,5,P025>,P025>,P025>,P025>
-,#MSG_GROUP_TIME#,16,Otomatik Bekleme,Auto Waiting ,Авто ожидание,Авто очікування
-,#MSG_GROUP_TIME#,5,P026>,P026>,P026>,P026>
-,#MSG_GROUP_TIME#,16,Elektrik Kesinti,Power Cut       ,Откл питания,Вимк живлення
-,#MSG_GROUP_TIME#,5,P027>,P027>,P027>,P027>
-,#MSG_GROUP_TIME#,16,Yildiz Suresi   ,Star Duration   ,Продолж. Звезды,Тривалість зірк
-,#MSG_GROUP_TIME#,5,P028>,P028>,P028>,P028>
-,#MSG_GROUP_TIME#,16,Ana Kontak      ,Main Contactor ,Главн. Контактор,Головн. Контакт
-,#MSG_GROUP_TIME#,5,P029>,P029>,P029>,P029>
-,#MSG_GROUP_TIME#,16,Ucgen Gecis     ,Delta Transition,Перех на треугол,Перехід на трик
-,#MSG_GROUP_TIME#,5,P030>,P030>,P030>,P030>
-,#MSG_GROUP_TIME#,16,On isitma Yukte ,Preheat Onload  ,Подогрев в загру,Підігрів в зав
-,#MSG_GROUP_TIME#,5,P031>,P031>,P031>,P031>
-,#MSG_GROUP_TIME#,16,On isitma Bosta ,Preheat Idle    ,Подогр в хол ход,Підігрів в ХХ
-,#MSG_GROUP_TIME#,5,P032>,P032>,P032>,P032>
-,#MSG_GROUP_TIME#,16,Cikis Bsn. Ariza,High Press Alarm,Тревг давлен лин,Тривог вис тиск
-,#MSG_GROUP_TIME#,5,P033>,P033>,P033>,P033>
-,#MSG_GROUP_TIME#,16,Ic Bsn. Ariza  ,Int. Press Alarm,Тревг внут давл.,Тривог внутр т
-,#MSG_GROUP_TIME#,5,P034>,P034>,P034>,P034>
-,#MSG_GROUP_TIME#,16,Bsn Farki Ariza ,DeltaPress Alarm,Трев давл Дельты,Тривог тиск дел
-,#MSG_GROUP_TIME#,5,P035>,P035>,P035>,P035>
-,#MSG_GROUP_TIME#,16,Fan Calisma Sure,Fan Working Time,Время раб вентил,Час роботи вент
-,#MSG_GROUP_TIME#,5,P036>,P036>,P036>,P036>
-,#MSG_GROUP_TIME#,16,Kurutucu Suresi ,Dryer Duration  ,Продолж. Сушки,Тривалість осуш
-,#MSG_GROUP_TIME#,5,P037>,P037>,P037>,P037>
-,#MSG_GROUP_TIME#,16,Yeterlilik Geck.,Sufficiency     ,ЗадерПерепДавл,ЗатрПерепТиск
-,#MSG_GROUP_TIME#,5,P038>,P038>,P038>,P038>
-,#MSG_GROUP_TIME#,16,Korna Suresi    ,Horn Duration   ,Продол. Сигнала,Трив.сигналу
-,#MSG_GROUP_TIME#,5,P039>,P039>,P039>,P039>
-,#MSG_GROUP_TIME#,16,Reserved,Reserved,Reserved,Reserved
-,#MSG_GROUP_TIME#,5,P040>,P040>,P040>,P040>
-,#MSG_GROUP_TIME#,16,Booster Gecikme,Booster Delay,Booster Delay,Booster Delay
-,#MSG_GROUP_TIME#,5,P041>,P041>,P041>,P041>
-,#MSG_GROUP_INPUT#,16,DI  -Fonksiyon  ,DI  -Function,DI  -Функция,DI  -Функція
-,#MSG_GROUP_INPUT#,5,P   >,P   >,P   >,P   >
-,#MSG_GROUP_INPUT#,11,DI  -Gecikme    ,DI  -Delay      ,DI  -Задержка,DI  -Затримка
-,#MSG_GROUP_INPUT#,5,P   >,P   >,P   >,P   >
-,#MSG_GROUP_INPUT#,11,DI  -Kontak Tipi,DI  -Contact Type,DI  -Тип контакт,DI  -Тип контакт
-,#MSG_GROUP_INPUT#,5,P   >,P   >,P   >,P   >
-,#MSG_GROUP_INPUT#,11,DI  -Tipi,DI  -Type,DI  -Type,DI  -Type
-,#MSG_GROUP_INPUT#,5,P   >,P   >,P   >,P   >
-,#MSG_GROUP_OUTPUT#,16,DO  -Fonksiyon  ,DO  -Function,DO  -Функция,DO  -Функція
-,#MSG_GROUP_OUTPUT#,5,P   >,P   >,P   >,P   >
-,#MSG_GROUP_OUTPUT#,11,DO  -Gecikme    ,DO  -Delay      ,DO  -Задержка,DO  -Затримка
-,#MSG_GROUP_OUTPUT#,5,P   >,P   >,P   >,P   >
-,#MSG_GROUP_OUTPUT#,11,DO  -Kontak Tipi,DO  -Contact Type,DO  -Тип контакт,DO  -Тип контакт
-,#MSG_GROUP_OUTPUT#,5,P   >,P   >,P   >,P   >
-,#MSG_GROUP_OUTPUT#,11,DO  -Tipi,DO  -Type,DO  -Type,DO  -Type
-,#MSG_GROUP_OUTPUT#,5,P   >,P   >,P   >,P   >
-,#MSG_GROUP_SERVICE#,16,Genel Bakim     ,General Maint.  ,Общее тех обсл,ЗагальнеТехобсл
-,#MSG_GROUP_SERVICE#,5,P140>,P140>,P140>,P140>
-,#MSG_GROUP_SERVICE#,16,Rulman Bakim    ,Bearing Lubric. ,Смазка подшипник,Змащ. підш
-,#MSG_GROUP_SERVICE#,5,P141>,P141>,P141>,P141>
-,#MSG_GROUP_SERVICE#,16,YagDegisim Bakim,Change Oil ,Замена масла,Заміна масла
-,#MSG_GROUP_SERVICE#,5,P142>,P142>,P142>,P142>
-,#MSG_GROUP_SERVICE#,16,HavaFiltre Bakim,Change AirFilter,Замен возд фильт,ЗамінаПовФільт
-,#MSG_GROUP_SERVICE#,5,P143>,P143>,P143>,P143>
-,#MSG_GROUP_SERVICE#,16,Yag Filtre Bakim,Change OilFilter,Замен масл фильт,ЗамінаМаслФільт
-,#MSG_GROUP_SERVICE#,5,P144>,P144>,P144>,P144>
-,#MSG_GROUP_SERVICE#,16,Sep.Filtre Bakim,Change Seperator,Замен сепаратор,ЗамінаСепаратор
-,#MSG_GROUP_SERVICE#,5,P145>,P145>,P145>,P145>
-,#MSG_GROUP_SERVICE#,16,Reserved,Reserved,Reserved,Reserved
-,#MSG_GROUP_SERVICE#,5,P146>,P146>,P146>,P146>
-,#MSG_GROUP_SERVICE#,16,Reserved,Reserved,Reserved,Reserved
-,#MSG_GROUP_SERVICE#,5,P147>,P147>,P147>,P147>
-,#MSG_GROUP_SERVICE#,16,Durma Aktivasyon,Activate Stop,Акт-вать тревогу,Активувати трив
-,#MSG_GROUP_SERVICE#,5,P148>,P148>,P148>,P148>
-,#MSG_GROUP_SERVICE#,16,Bakim Sifirlama,Maintaince Reset,Сброс тех. обсл.,Скид.тех.обсл.
-,#MSG_GROUP_SERVICE#,5,P149>,P149>,P149>,P149>
-,#MSG_GROUP_SERVICE_RESET#,10,Hayir,None  ,Нет,Ні
-,#MSG_GROUP_SERVICE_RESET#,10,Genel,General  ,Общии,Загальні
-,#MSG_GROUP_SERVICE_RESET#,10,Rulman,Bearing ,Подшипник,Підшипник
-,#MSG_GROUP_SERVICE_RESET#,10,YagDegisim,OilChange  ,Замен.масл,Замін.масл
-,#MSG_GROUP_SERVICE_RESET#,10,Hava Filtre,Air Filter,Возд.фильт,Повітр.фільтр
-,#MSG_GROUP_SERVICE_RESET#,10,Yag Filtre,Oil Filter  ,Масл.фильт,Масл.фільтр
-,#MSG_GROUP_SERVICE_RESET#,10,Sep.Filtre,Sep.Filter  ,ФильтСепар,Фільтр сепар
-,#MSG_GROUP_SERVICELEFT#,16,Genel Bakim     ,General Maint.  ,Общее тех обсл,ЗагальнеТехобсл
-,#MSG_GROUP_SERVICELEFT#,5,P140>,P140>,P140>,P140>
-,#MSG_GROUP_SERVICELEFT#,16,Rulman Bakim    ,Bearing Lubric. ,Смазка подшипник,Змащ. підш
-,#MSG_GROUP_SERVICELEFT#,5,P141>,P141>,P141>,P141>
-,#MSG_GROUP_SERVICELEFT#,16,YagDegisim Bakim,Change Oil ,Замена масла,Заміна масла
-,#MSG_GROUP_SERVICELEFT#,5,P142>,P142>,P142>,P142>
-,#MSG_GROUP_SERVICELEFT#,16,HavaFiltre Bakim,Change AirFilter,Замен возд фильт,ЗамінаПовФільт
-,#MSG_GROUP_SERVICELEFT#,5,P143>,P143>,P143>,P143>
-,#MSG_GROUP_SERVICELEFT#,16,Yag Filtre Bakim,Change OilFilter,Замен масл фильт,ЗамінаМаслФільт
-,#MSG_GROUP_SERVICELEFT#,5,P144>,P144>,P144>,P144>
-,#MSG_GROUP_SERVICELEFT#,16,Sep.Filtre Bakim,Change Seperator,Замен сепаратор,ЗамінаСепаратор
-,#MSG_GROUP_SERVICELEFT#,5,P145>,P145>,P145>,P145>
-,#MSG_GROUP_SERVICELEFT#,16,Toplam Calisma  ,Total Hour,Общее время,Загальний час
-,#MSG_GROUP_SERVICELEFT#,5,Pnon>,Pnon>,Pnon>,Pnon>
-,#MSG_GROUP_SERVICELEFT#,16,Yukte Calisma   ,Loading Hour   ,Время в загрузке,Час в завант.
-,#MSG_GROUP_SERVICELEFT#,5,Pnon>,Pnon>,Pnon>,Pnon>
-,#MSG_GROUP_CALIB#,16,Cikis Bsn.Offset,OutPress. Offset,Смещ.вых.давлен,Зміщ.вих.тиск
-,#MSG_GROUP_CALIB#,5,P150>,P150>,P150>,P150>
-,#MSG_GROUP_CALIB#,16,Cikis Bsn.Kazanc,OutPress. Gain,Увел.вых.давлен,Збільш.вих.тиск
-,#MSG_GROUP_CALIB#,5,P151>,P151>,P151>,P151>
-,#MSG_GROUP_CALIB#,16,Cikis Bsn.Limit,OutPress. Limit,Лимит.вых.давле,Ліміт.вих.тиск
-,#MSG_GROUP_CALIB#,5,P152>,P152>,P152>,P152>
-,#MSG_GROUP_CALIB#,16,Ic Basinc Offset ,Int.Press Offset,Смещ.внут.давлен,Зміщ.внут.тиск
-,#MSG_GROUP_CALIB#,5,P153>,P153>,P153>,P153>
-,#MSG_GROUP_CALIB#,16,Ic Basinc Kazanc,Int.Press Gain,Увел.внут.давлен,Збільш.внут.тиск
-,#MSG_GROUP_CALIB#,5,P154>,P154>,P154>,P154>
-,#MSG_GROUP_CALIB#,16,Ic Basinc Limit,Int.Press Limit,Лимит.внут.давле,Ліміт.внут.тиск
-,#MSG_GROUP_CALIB#,5,P155>,P155>,P155>,P155>
-,#MSG_GROUP_CALIB#,16,Sicaklik Offset ,Temperat. Offset,Смещ Температуры,Зміщ тем.
-,#MSG_GROUP_CALIB#,5,P156>,P156>,P156>,P156>
-,#MSG_GROUP_CALIB#,16,Sicaklik Kazanc ,Temperat. Gain  ,Увел Температуры,Збільш темп.
-,#MSG_GROUP_CALIB#,5,P157>,P157>,P157>,P157>
-,#MSG_GROUP_CALIB#,16,Vr Offset       ,Vr Offset       ,Смещ Фазы R,Зміщ фази R
-,#MSG_GROUP_CALIB#,5,P158>,P158>,P158>,P158>
-,#MSG_GROUP_CALIB#,16,Vr Kazanc       ,Vr Gain         ,КоэфУсилФазы R,КоефПідвФази R
-,#MSG_GROUP_CALIB#,5,P159>,P159>,P159>,P159>
-,#MSG_GROUP_CALIB#,16,Vs Offset      ,Vs Offset       ,Смещ Фазы S,Зміщ фази S
-,#MSG_GROUP_CALIB#,5,P160>,P160>,P160>,P160>
-,#MSG_GROUP_CALIB#,16,Vs Kazanc       ,Vs Gain         ,КоэфУсилФазы S,КоефПідвФази S
-,#MSG_GROUP_CALIB#,5,P161>,P161>,P161>,P161>
-,#MSG_GROUP_CALIB#,16,Vt Offset       ,Vt Offset       ,Смещ Фазы T,Зміщ фази Т
-,#MSG_GROUP_CALIB#,5,P162>,P162>,P162>,P162>
-,#MSG_GROUP_CALIB#,16,Vt Kazanc       ,Vt Gain ,КоэфУсилФазы T,КоефПідвФази Т
-,#MSG_GROUP_CALIB#,5,P163>,P163>,P163>,P163>
-,#MSG_GROUP_TEMP#,16,Sck1 Yuksek Arz.,Temp1 High Alarm,Тревог Выс Темп1,Тривог вис темп1
-,#MSG_GROUP_TEMP#,5,P172>,P172>,P172>,P172>
-,#MSG_GROUP_TEMP#,16,Sck1 Yuksek Uyr.,Temp1 High Warn ,Предуп.Выс.Темп1,Попер.вис.темп1
-,#MSG_GROUP_TEMP#,5,P173>,P173>,P173>,P173>
-,#MSG_GROUP_TEMP#,16,Sck1 Dusuk Arz. ,Temp1 Low Alarm ,Тревог Низ Темп1,Тривог низ темп1
-,#MSG_GROUP_TEMP#,5,P174>,P174>,P174>,P174>
-,#MSG_GROUP_TEMP#,16,Sck1 Dusuk Uyr. ,Temp1 Low Warn  ,Предуп.Низ.Темп1,Попер.низ темп1
-,#MSG_GROUP_TEMP#,5,P175>,P175>,P175>,P175>
-,#MSG_GROUP_TEMP#,16,On Isit Siniri  ,Preheat Limit ,ПредПрогрЛимит,ПоперПрогрЛіміт
-,#MSG_GROUP_TEMP#,5,P176>,P176>,P176>,P176>
-,#MSG_GROUP_TEMP#,16,Sck1 Sensor Tipi,Temp1 SensorType,ТипДатчика Темп1,ТипДатч Темп1
-,#MSG_GROUP_TEMP#,5,P177>,P177>,P177>,P177>
-,#MSG_GROUP_TEMP#,16,Sicaklik Birimi ,Temperature Unit,Ед.измер.темпер,Од.вимір.темп
-,#MSG_GROUP_TEMP#,5,P178>,P178>,P178>,P178>
-,#MSG_GROUP_TEMP#,16,Fan Baslama     ,Fan Start       ,Темп старт вент,Темп старт вент
-,#MSG_GROUP_TEMP#,5,P179>,P179>,P179>,P179>
-,#MSG_GROUP_TEMP#,16,Fan Durma       ,Fan Stop ,Темп стоп вентил,Темп стоп вент
-,#MSG_GROUP_TEMP#,5,P180>,P180>,P180>,P180>
-,#MSG_GROUP_TEMP#,16,Kurutucu Baslama        ,Dryer Start,Темп старт осуши,Темп старт осуш
-,#MSG_GROUP_TEMP#,5,P181>,P181>,P181>,P181>
-,#MSG_GROUP_TEMP#,16,Kurutucu Durma,Dryer Stop,Темп стоп осушит,Темп стоп осуш
-,#MSG_GROUP_TEMP#,5,P182>,P182>,P182>,P182>
-,#MSG_GROUP_TEMP#,16,PTC Aktif ,PTC Activate ,Активировать PTC,Активувати РТС
-,#MSG_GROUP_TEMP#,5,P183>,P183>,P183>,P183>
-,#MSG_GROUP_TEMP#,16,Sck2 Yuksek Arz.,Temp2 High Alarm,Тревог Выс Темп2,Тривог вис темп2
-,#MSG_GROUP_TEMP#,5,P184>,P184>,P184>,P184>
-,#MSG_GROUP_TEMP#,16,Sck2 Yuksek Uyr.,Temp2 High Warn ,Предуп.Выс.Темп2,Попер.вис.темп2
-,#MSG_GROUP_TEMP#,5,P185>,P185>,P185>,P185>
-,#MSG_GROUP_TEMP#,16,Sck2 Dusuk Arz. ,Temp2 Low Alarm ,Тревог Низ Темп2,Тривог низ темп2
-,#MSG_GROUP_TEMP#,5,P186>,P186>,P186>,P186>
-,#MSG_GROUP_TEMP#,16,Sck2 Dusuk Uyr. ,Temp2 Low Warn  ,Предуп.Низ.Темп2,Попер.низ темп2
-,#MSG_GROUP_TEMP#,5,P187>,P187>,P187>,P187>
-,#MSG_GROUP_TEMP#,16,Sck2 Sensor Tipi,Temp2 SensorType,ТипДатчика Темп2,Тип датч Темп2
-,#MSG_GROUP_TEMP#,5,P188>,P188>,P188>,P188>
-,#MSG_GROUP_TEMP#,16,Sck2 Sensor Modu,Temp2 SensorMode,Режим Датч Темп2,Режим датч темп2
-,#MSG_GROUP_TEMP#,5,P189>,P189>,P189>,P189>
-,#MSG_GROUP_TEMP#,16,Basinc Komp. Sck,Press Comp.Temp.,ТемпДавлНагнетан,Темп тиску нагніт
-,#MSG_GROUP_TEMP#,5,P190>,P190>,P190>,P190>
-,#MSG_GROUP_TEMP#,16,Yag Donma Onleme,Oil Freeze Prvnt,ТемпЗаморозМасл,Темп замерз масл
-,#MSG_GROUP_TEMP#,5,P191>,P191>,P191>,P191>
-,#MSG_GROUP_MAINS#,16,Dengesizlik     ,Volt Unbalance,Дисбаланс Напряж,Дисбаланс напруг
-,#MSG_GROUP_MAINS#,5,P200>,P200>,P200>,P200>
-,#MSG_GROUP_MAINS#,16,Volt Dusuk Ariza,Low Volt. Alarm  ,Трев.Низк.Напряж,Трив.низ.напруга
-,#MSG_GROUP_MAINS#,5,P201>,P201>,P201>,P201>
-,#MSG_GROUP_MAINS#,16,Volt Dusuk Uyari,Low Volt. Warn   ,ПредупНизкНапряж,ПоперНиз.Напруга
-,#MSG_GROUP_MAINS#,5,P202>,P202>,P202>,P202>
-,#MSG_GROUP_MAINS#,16,Volt Yuksek Arz.,High Volt. Alarm,Трев.Выск.Напряж,Трив.Вис.Напруга
-,#MSG_GROUP_MAINS#,5,P203>,P203>,P203>,P203>
-,#MSG_GROUP_MAINS#,16,Volt Yuksek Uyr.,High Volt. Warn,ПредупВыскНапряж,ПоперВисНапруга
-,#MSG_GROUP_MAINS#,5,P204>,P204>,P204>,P204>
-,#MSG_GROUP_MAINS#,16,Frek Dusuk Ariza,Low Freq. Alarm ,Трев.Низк.Частот,Трив.Низ.Частот
-,#MSG_GROUP_MAINS#,5,P205>,P205>,P205>,P205>
-,#MSG_GROUP_MAINS#,16,Frek Dusuk Uyari,Low Freq. Warn.  ,ПредупНизкЧастот,ПоперНизЧастот
-,#MSG_GROUP_MAINS#,5,P206>,P206>,P206>,P206>
-,#MSG_GROUP_MAINS#,16,Frek Yuksek Arz.,High Freq. Alarm ,Трев.Выск.Частот,Трив.Вис.Частота
-,#MSG_GROUP_MAINS#,5,P207>,P207>,P207>,P207>
-,#MSG_GROUP_MAINS#,16,Frek Yuksek Uyr.,High Freq. Warn ,ПредупВыскЧастот,ПоперВис.Частота
-,#MSG_GROUP_MAINS#,5,P208>,P208>,P208>,P208>
-,#MSG_GROUP_MAINS#,16,Baglanti Sekli  ,Main Supply Type,Тип Глав Питания,Тип Головн Живл
-,#MSG_GROUP_MAINS#,5,P209>,P209>,P209>,P209>
-,#MSG_GROUP_MAINS#,16,FazSirasi Koruma,PhaseSeq Control,Контроль фаз,Контроль фаз
-,#MSG_GROUP_MAINS#,5,P210>,P210>,P210>,P210>
-,#MSG_GROUP_MAINS#,16,Sebeke Arizalari,Mains Faults    ,Неисправн в сети,Несправн.в мереж
-,#MSG_GROUP_MAINS#,5,P211>,P211>,P211>,P211>
-,#MSG_GROUP_MAINSTYPE#,10,1Faz+N,1Ph+N,1ФазаN,1ФазаN
-,#MSG_GROUP_MAINSTYPE#,10,3Faz+N,3Ph+N,3ФазыN,3ФазиN
-,#MSG_GROUP_MAINSTYPE#,10,3Faz,3Ph,3Фазы,3Фази
-,#MSG_GROUP_GENERAL#,16,Fabrika Sifresi ,Factory Password,Заводскои пароль,ЗаводськийПароль
-,#MSG_GROUP_GENERAL#,5,P220>,P220>,P220>,P220>
-,#MSG_GROUP_GENERAL#,16,Servis Sifresi  ,Service Password,Сервисныи пароль,Сервісний пароль
-,#MSG_GROUP_GENERAL#,5,P221>,P221>,P221>,P221>
-,#MSG_GROUP_GENERAL#,16,Kullanici Sifre ,User Password   ,Пароль оператора,Пароль оператора
-,#MSG_GROUP_GENERAL#,5,P222>,P222>,P222>,P222>
-,#MSG_GROUP_GENERAL#,16,ENKO Sifre      ,ENKO Password   ,ENKO пароль,ENKO пароль
-,#MSG_GROUP_GENERAL#,5,P223>,P223>,P223>,P223>
-,#MSG_GROUP_GENERAL#,16,Maks. Kalkis Ad.,Max. Start Nmb.,Макс Кол Пусков,МаксКіль-тьЗапус
-,#MSG_GROUP_GENERAL#,5,P224>,P224>,P224>,P224>
-,#MSG_GROUP_GENERAL#,16,Calstrma Kaynagi,Start Source,Начальныи ресурс,Початковий рес.
-,#MSG_GROUP_GENERAL#,5,P225>,P225>,P225>,P225>
-,#MSG_GROUP_GENERAL#,16,Calisma Modu    ,Working Mode    ,Режим работы,Режим роботи
-,#MSG_GROUP_GENERAL#,5,P226>,P226>,P226>,P226>
-,#MSG_GROUP_GENERAL#,16,Bosta Suresi S/D,Unload Time S/D   ,Тип врем разгруз,Тип часу розвант
-,#MSG_GROUP_GENERAL#,5,P227>,P227>,P227>,P227>
-,#MSG_GROUP_GENERAL#,16,Korna Modu      ,Horn Mode ,Режим зуммера,Режим зуммера
-,#MSG_GROUP_GENERAL#,5,P228>,P228>,P228>,P228>
-,#MSG_GROUP_GENERAL#,16,Bsn Kayip Onleme,PressLose Preve.,ПредупПотерДавлн,ПоперВтратиТиску
-,#MSG_GROUP_GENERAL#,5,P229>,P229>,P229>,P229>
-,#MSG_GROUP_GENERAL#,16,Parametre Kaydet,Parameter Save  ,Сохран настроек,ЗберіганняНалашт
-,#MSG_GROUP_GENERAL#,5,P230>,P230>,P230>,P230>
-,#MSG_GROUP_GENERAL#,16,Rezerve         ,Reserved        ,Reserved        ,Reserved        
-,#MSG_GROUP_GENERAL#,5,P231>,P231>,P231>,P231>
-,#MSG_GROUP_GENERAL#,16,Lisan           ,Language        ,Язык,Мова
-,#MSG_GROUP_GENERAL#,5,P232>,P232>,P232>,P232>
-,#MSG_GROUP_GENERAL#,16,Fabrika Ayar.Don,Factory  Reset,Заводские настр,Заводські налашт
-,#MSG_GROUP_GENERAL#,5,P233>,P233>,P233>,P233>
-,#MSG_GROUP_GENERAL#,16,Ariza Kayit Sil ,Reset Alarm Rec.,СбросЗаписеиТрев,СкидПерелікТрив
-,#MSG_GROUP_GENERAL#,5,P234>,P234>,P234>,P234>
-,#MSG_GROUP_GENERAL#,16,Çalışma Zam.Res.,WorkHours Reset,СбросЧасовРаботы,СкидГодинРоботи
-,#MSG_GROUP_GENERAL#,5,P235>,P235>,P235>,P235>
-,#MSG_GROUP_GENERAL#,16,Menu Logout Sure,Menu Logout Time,Врем Вых из меню,Час Вих з Меню
-,#MSG_GROUP_GENERAL#,5,P236>,P236>,P236>,P236>
-,#MSG_GROUP_GENERAL#,16,Menu Logout     ,Menu Logout     ,Выход из меню,Вихід з меню
-,#MSG_GROUP_GENERAL#,5,P237>,P237>,P237>,P237>
-,#MSG_GROUP_GENERAL#,16,Dinamik Şifre,Dynamic Password,Динамич пароль,Динаміч пароль
-,#MSG_GROUP_GENERAL#,5,P238>,P238>,P238>,P238>
-,#MSG_GROUP_GENERAL#,16,Motor Surucu ,Motor Drive ,Режим вождения,Привід Мотора
-,#MSG_GROUP_GENERAL#,5,P239>,P239>,P239>,P239>
-,#MSG_GROUP_GENERAL#,16,Makine Seri No ,Machn. Ser. No ,Machn. Ser. No ,Серійний номер
-,#MSG_GROUP_GENERAL#,5,P340>,P340>,P340>,P340>
-,#MSG_GROUP_PARAMS_INVERTER#,16,Frekans Alt Deg,Frequency Min.,Frequency Min.,Частота Мін.
-,#MSG_GROUP_PARAMS_INVERTER#,5,P250>,P250>,P250>,P250>
-,#MSG_GROUP_PARAMS_INVERTER#,16,Frekans Ust Deg,Frequency Max.,Frequency Max.,Частота Макс.
-,#MSG_GROUP_PARAMS_INVERTER#,5,P251>,P251>,P251>,P251>
-,#MSG_GROUP_PARAMS_INVERTER#,16,Frekans Etiket,Frequency Rated,Frequency Rated,Номін Частота
-,#MSG_GROUP_PARAMS_INVERTER#,5,P252>,P252>,P252>,P252>
-,#MSG_GROUP_PARAMS_INVERTER#,16,Rampa Yukselme,Ramp Up Time,Ramp Up Time,Час нарощування
-,#MSG_GROUP_PARAMS_INVERTER#,5,P253>,P253>,P253>,P253>
-,#MSG_GROUP_PARAMS_INVERTER#,16,Rampa Dusme,Ramp Down Time,Ramp Down Time,Час зниження
-,#MSG_GROUP_PARAMS_INVERTER#,5,P254>,P254>,P254>,P254>
-,#MSG_GROUP_PARAMS_INVERTER#,16,Kutup Cifti,Pole-Pair,Pole-Pair,Полюс-пара
-,#MSG_GROUP_PARAMS_INVERTER#,5,P255>,P255>,P255>,P255>
-,#MSG_GROUP_PARAMS_INVERTER#,16,Etiket Akim,Current Rated,Current Rated,Номін струм
-,#MSG_GROUP_PARAMS_INVERTER#,5,P256>,P256>,P256>,P256>
-,#MSG_GROUP_PARAMS_INVERTER#,16,Etiket Voltaj,Voltage Rated,Voltage Rated,Номін напруга
-,#MSG_GROUP_PARAMS_INVERTER#,5,P257>,P257>,P257>,P257>
-,#MSG_GROUP_PARAMS_INVERTER#,16,Guc Faktoru,Power Factor,Power Factor,Фактор потужн
-,#MSG_GROUP_PARAMS_INVERTER#,5,P258>,P258>,P258>,P258>
-,#MSG_GROUP_PARAMS_INVERTER#,16,Etiket Gucu,Power Capacity,Power Capacity,Потужність
-,#MSG_GROUP_PARAMS_INVERTER#,5,P259>,P259>,P259>,P259>
-,PARALEL CONTROL PARAMETERS,16,Calisma Modu    ,Operating Mode,,Режим роботи
-,,16,Cihaz ID,Unit ID,,Unit ID
-,,16,Yaslanma Cznrlk.,Aging Resolution,,Aging Resolution
-,,16,Dinlenme Zamani,Rest Time,,Rest Time
-,,16,Max Calisma,Max Run Time,,Макс. Час роботи
-,,16,Ofset Zamani,Time Offset,,Time Offset
-,,16,Zaman Asimi,Timeout,,Timeout
-,,16,Hedef Sure,Target Time,,Цільовий час
-,,16,Devreye Alma,Working Query,,Робочий запит
-,,16,Devreden Cikma,Stopping Query,,Зупинка запит
-,,16,BosaGecmeOfset,P-Idle Offset,,P-Idle Offset
-,,16,Top.CihazSayisi,Total Units,,Всього одиниць
-,,16,EsZamanliCihaz,Concurrent Units,,Паралел одиниці
-,,,,,,
-,PASSWORD TEXT,9,Sifre: ,Password:,Пароль:,Пароль:
-,,,,,,
-,PRESSURE SENSOR TYPE,10,Yok ,None,Нет,Ні
-,,10,Analog,Analog,Аналоговыи,Аналоговий
-,,10,Dijital,Digital,Цифровои,Цифровий
-,,,,,,
-,PRESSURE UNIT,3,BAR,BAR,БАР,БАР
-,,3,PSI,PSI,PSI,PSI
-,,,,,,
-,TEMPERATURE UNITS,3,C,C,C,C
-,,3,F,F,F,F
-,,,,,,
-,PARAMETERS ACTIVE-PASSIVE,10,Pasif,Passive,Пассивн,Пасивний
-,,10,Aktif,Active,Активны,Активний
-,,,,,,
-,TEMPERATURE SENSORS,10,NTC,NTC,NTC,NTC
-,,10,KTY81,KTY81,KTY81,KTY81
-,,10,PT1000,PT1000,PT1000,PT1000
-,,10,KTY13.5,KTY13.5,KTY13.5,KTY13.5
-,,,,,,
-,TEMPERATURE SENSOR 2 MODE,7,Kapali,Off,Выкл.,Вимкн
-,,7,Normal,Normal,Обычны,Звич
-,,7,Fark,Diff,Разниц,Різниц
-,,,,,,
-,INPUT FUNCTIONS,10,Yok,None,Нет,Ні
-,,10,Acil Stop   ,EmerStp,АварКнопка,АварКнопка
-,,10,Seperator,Seperat.,Сепаратор,Сепаратор
-,,10,YagBasinci,OilPres.,Давл.Масла,Тиск.Масла
-,,10,Faz Sirasi,PhaseSeq,Фазировка,Фазування
-,,10,Mot.Termik,Mot. Ovrld,МоторПерег,ПерегрДвиг
-,,10,Fan Termik,Fan Ovrld,ВентПерегр,ПерегрВент
-,,10,Uzak Calis,RemoteSTR,УдалСтарт,ВіддСтарт
-,,10,Baslat Btn,StartBtn,Кноп Старт,Кноп Старт
-,,10,Durdur Btn,StopBtn,Кноп Стоп,Кноп Стоп
-,,10,Uzak Yuk,RemoteLD,УдЗагрРазг,ВідЗавРозв
-,,10,PTC,PTC,PTC,PTC
-,,10,YedekHata1,Aux1 Alarm,ТревРезер1,ТривРезер1
-,,10,YedekHata2,Aux2 Alarm,ТревРезер2,ТривРезер2
-,,10,Sb Sivici,Ln Switch,РелеДавВых,РелеТисВих
-,,10,Vd Sivici,Sc Switch,РелеДавВин,РелеТискВх
-,,10,Hata Silme,FaultClear,Очист.Ошиб,Почист.Пом
-,,10,Kapak Acik,Door Open,Дверь откр,Двері відкр
-,,10,Dusuk Bsnc,Low Press.,,Low Press.
-,,,,,,
-,OUTPUT FUNCTIONS,10,Yok,None,Нет,Ні
-,,10,Ana Kont,Main Con.,ГлКонтроль,ГолКонтр
-,,10,YildizKont,Star Con.,ЗвездКонтр,З'єднЗірка
-,,10,Ucgen Kont,DeltaCon.,ТреугКонтр,З'єднТрик
-,,10,Yuk Valfi ,LoadValve,КлапЗагруз,КлапанЗав
-,,10,Ariza,Alarm,Тревога,Тривога
-,,10,Uyari,Warning,Ожидание,Очікування
-,,10,Alarm,Alarm+Warn,Трев+Преду,Трив+Попер
-,,10,Fan,Fan,Вентилятор,Вентилятор
-,,10,Yukte,OnLoad,Загрузка,Завантаження
-,,10,Yuksuz,Unload,Разгрузка,Розвант
-,,10,Calisiyor,Running,Вращается,В роботі
-,,10,Duruyor,Stopping,Стоп,Зупинка
-,,10,Korna,Horn,Зуммер,Зумер
-,,10,Kurutucu-Z,Dryer-Time,ВремяСушки,ЧасОсуш
-,,10,Kurutucu-S,Dryer-T2,СушкаТем2,ОсушТем2
-,,10,RSS Aktif,RSS Active,RSSАктивен,RSSАктив
-,,10,S.Alt Arz,T.LowAlarm,Низк Темп,Низьк Темп
-,,10,S.Ust Arz,T.Up Alarm,Выск Темп,Висок Темп
-,,10,S.Alt Uyr,T.Low Warn,Низк Темп,Низьк Темп
-,,10,S.Ust Uyr,T.Up Warn,Выск Темп,Висок Темп
-,,10,P1 Ariza,P1 Alarm,Трев Р1,Трив Р1
-,,10,P2 Ariza,P2 Alarm,Трев Р2,Трив Р2
-,,10,T1 Ariza,T1 Alarm,Трев Т1,Трив Т1
-,,10,T2 Ariza,T2 Alarm,Трев Т2,Трив Т2
-,,10,T2 D.Ariza,T2 L.Alarm,НизкТемпТ2,НизТемпТ2
-,,10,T2 Y.Ariza,T2 H.Alarm,ВыскТемпТ2,ВисТемпТ2
-,,10,T2 D.Uyari,T2 L.Warn,НизкТемпТ2,НизТемпТ2
-,,10,T2 Y.Uyari,T2 H.Warn,ВыскТемпТ2,ВисТемпТ2
-,,,,,,
-,INPUT-OUTPUT POLARITY,10,NO,NO,Н.Откр,NO
-,,10,NC,NC,Н.Закр,NC
-,,,,,,
-,COMPRESSOR CONTROL MODE,10,Manuel,Manual,В ручную,В ручну
-,,10,Otomatik,Auto,Авто,Авто
-,,10,Paralel,Parallel,,Parallel
-,,,,,,
-,PARALLEL CONTROL MODE,10,E.Yaslan,E.Aging,,E.Aging
-,,10,Ener.Ts.,P. Save,,P. Save
-,,,,,,
-,START SOURCE,10,PAN-DI-MBS,PAN-DI-MBS,PAN-DI-MBS,PAN-DI-MBS
-,,10,Panel,Panel,Панель,Панель
-,,10,DijitalGrs,DigitalInp,Цифр Вход,Цифр Вхід
-,,10,ModbusRTU,ModbusRTU,МодБас RTU,МодБас RTU
-,,10,DI-Modbus,DI-Modbus,МодБасЦфВх,DI-Modbus
-,,,,,,
-,MONITORING PAGE TITLES,16,Ariza Kayitlari ,Alarm Logs      ,Записи Тревог,Записи Тривог
-,,16,Servis Sureleri ,Maint.Counters  ,Счетчики ТО,Лічильники ТО
-,,16,Faz Voltajlari  ,Phase Voltages    ,Напряжение фаз,Напруга фаз
-,,16,Dijital G/C     ,Digital I/O     ,Цифровые Вх/Вых,Цифрові Вх/Вих
-,,16,Besleme Voltaj. ,Supply Voltages ,Напряж питания,Напруга живл
-,,16,Komp. Sayaclari ,Comp. Counters  ,ВремяРаботыКомпр,ЧасРоботиКомпрес
-,,16,Cihaz Bilgisi ,Device Info ,,Device Info 
-,,16,Inverter Takip ,Inverter Monitor ,инвертор Монитор,інвертор Монітор
-,,16,Paralel Kontrol,Parallel Control,,Parallel Control
-,,,,,,
-,ALARMS & WARNINGS,16,Cikis Bsn. Uyari,Out Press. Warn,ПредупДавлЛинии,ПоперТискЛінії
-,,16,Ic Basinc Uyari,Int. Press. Warn,Предуп Внут Давл,ПоперВнутрТиск
-,,16,Bsn Farki Uyari,Delta Press Warn,Пред разн. Давл.,ПоперРізнТиску
-,,16,Sck1. Ust Uyari,Temp1 High Warn,Предуп Выс Темп1,ПоперВисТемп1
-,,16,Sck1. Alt Uyari,Temp1 Low Warn,Предуп Низ Темп1,ПоперНизТемп1
-,,16,Elek.Kesinti,Power Intrpt,Отсутст напряж,Відсутн. живл.
-,,16,Servis Seviye1,Service Level1,Сервис обсл1,Сервіс обсл1
-,,16,Sck2 Ust Uyari,Temp2 High Warn,ПредупВысТемп2,ПоперВисТемп2
-,,16,Sck2 Alt Uyari,Temp2 Low Warn,Предуп Низ Темп2,ПоперНизТемп2
-,,16,Vr Yuksek Uyari,Vr High Warn,ПредупВысФаза R,ПоперВисФаза R
-,,16,Vs Yuksek Uyari,Vs High Warn,ПредупВысФаза S,ПоперВисФаза S
-,,16,Vt Yuksek Uyari,Vt High Warn,ПредупВысФаза T,ПоперВисФаза T
-,,16,Vr Dusuk Uyari,Vr Low Warn,ПредупНизФаза R,ПоперНизФаза R
-,,16,Vs Dusuk Uyari,Vs Low Warn,ПредупНизФаза S,ПоперНизФаза S
-,,16,Vt Dusuk Uyari,Vt Low Warn,ПредупНизФаза T,ПоперНизФаза T
-,,16,Fre.Yuksek Uyari,Freq High Warn,ПредВысЧастота,ПоперВисЧаст
-,,16,Fre.Dusuk Uyari,Freq Low Warn,ПредНизЧастота,ПоперНизЧаст
-,,16,Motor Termik,Motor Overload,Мотор перегружен,Перевант Двиг
-,,16,Seperator Filtre,Seperator Filter,Фильтр Сепаратор,Фільтр Сепаратор
-,,16,Fan Termik,Fan Overload,ВентиляторПерегр,Перевант Вентил
-,,16,Faz Sirasi - DI,Phase Seq - DI,Цифр.Вх.Посл.Фаз,Цифр.Вх.Посл.Фаз
-,,16,Acil Stop,Emergency Stop,Аварийная кнопка,Аварійна кнопка
-,,16,Cikis Bsn. Ariza,Out Press. Alarm,Трев Выс Давлен,Трив.Вис.Тиск
-,,16,Ic Basinc Ariza,Int.Press. Alarm,Выс ВнутДавление,Вис ВнутТиск
-,,16,Bsn Farki Ariza,DeltaPress Alarm,Трев разн. Давл.,Трив.Різн.Тиску
-,,16,Sck1 Ust Ariza,Temp1 High Alarm,Трев Выс Темп1,Трив.Вис.Темп1
-,,16,Sck1 Alt Ariza,Temp1 Low  Alarm,Трев Низ Темп1,Трив.Низ.Темп1
-,,16,Yedek - 1 Ariza,Custom - 1 Alarm,Трев по желан 1,Трив по бажан1
-,,16,Yedek - 2 Ariza,Custom - 2 Alarm,Трев по желан 2,Трив по бажан2
-,,16,Maks. Kalkis Ad.,Max. Start Nmb.,Макс Пуск в час,МаксЗапВгодину
-,,16,Cik.Sens. Hatasi,Press.Sens Alarm,Ошибка датчика1,Помилка датч1
-,,16,Ic Sensor Hatasi,Int. Sens Alarm,Ошибка датчика2,Помилка датч2
-,,16,Min Bsn Ulasildi,Reached MinPress,Достиг МинДавл,Досягн МінТиск
-,,16,Servis Seviye2,Service Level2,Сервис обсл2,Сервіс обсл2
-,,16,Servis Seviye3,Service Level3,Сервис обсл3,Сервіс обсл3
-,,16,Servis Seviye4,Service Level4,Сервис обсл4,Сервіс обсл4
-,,16,Servis Seviye5,Service Level5,Сервис обсл5,Сервіс обсл5
-,,16,Vr Yuksek Ariza,Vr High Alarm,ТревВысФаза R,ТривВисФаза R
-,,16,Vs Yuksek Ariza,Vs High Alarm,ТревВысФаза S,ТривВисФаза S
-,,16,Vt Yuksek Ariza,Vt High Alarm,ТревВысФаза T,ТривВисФаза T
-,,16,Vr Dusuk Ariza,Vr Low Alarm,ТревНизФаза R,ТривНизФаза R
-,,16,Vs Dusuk Ariza,Vs Low Alarm,ТревНизФаза S,ТривНизФаза S
-,,16,Vt Dusuk Ariza,Vt Low Alarm,ТревНизФаза T,ТривНизФаза T
-,,16,Faz Sirasi - AI,Phase Seq - AI,Порядок фаз - AI,Порядок фаз - AI
-,,16,PTC Arizasi,PTC Alarm,Тревога PTC,Тривога PTC
-,,16,Acil Stop,Emergency Stop,Аварийная кнопка,Аварійна кнопка
-,,16,Sicaklik1 Hatasi,Temperatr1 Alarm,ДатчТемп1Неиспра,ДатчТемп1Несправ
-,,16,Sicaklik2 Hatasi,Temperatr2 Alarm,ДатчТемп2Неиспра,ДатчТемп2Несправ
-,,16,Sck2 Ust Ariza,Temp2 High Alarm,ТревВыскТемп2,ТривВискТемп2
-,,16,Sck2 Alt Ariza,Temp2 Low Alarm,Трев Низ Темп2,ТривНизТемп2
-,,16,Yuksek Fre.Ariza,High Freq. Alarm,Трев Выс Частота,Трив Вис Частота
-,,16,Dusuk Fre.Ariza,Low Freq. Alarm,Трев Низ Частота,Трив Низ Частота
-,,16,Faz Dengesizligi,Phase Unbalance,Перекос фаз,Перекос фаз
-,,16,Yag Bsn. Ariza,Oil Press. Alarm,ТревДавленМасла,ТривТискМасла
-,,16,Inver. Hab.Ariza,Inver. Com.Alarm,ТревСвязьИнверте,ТривЗвязкІнверто
-,,16,Inver. Gen.Ariza,Inver. Gen.Alarm,ИнвертерОбщТрев,ІнверторЗагТрив
-,,16,Kapak Acik Ariza,Door Open Alarm,Дверь открыта,Двері відкриті
-,,16,Cakisma Hata-ID,ID Conflict,,ID Conflict
-,,16,Cakisma Hata-Yuk,P-Load Conflict,,P-Load Conflict
-,,16,Cakisma Hata-Bos,P-Idle Conflict,,P-Idle Conflict
-,,16,Dusuk Basinc Arz,Low Press. Alarm,,Low Press. Alarm
-,,,,,,
-,FAULTS LOG NA,16,Ariza Yok   ,No Alarm,Нет неиспр.,Нема помил
-,,,,,,
-,TIME UNITS,3,ms ,ms ,мс,мс
-,,3,sn ,sec,сек,сек
-,,3,dk ,min,мин,хв
-,,3,sa ,hr ,час,год
-,,,,,,
-,YES - NO TEXT,10,Hayir,No,Нет,Ні
-,,10,Evet   ,Yes,Да,Так
-,,,,,,
-,FACTORY RESET OPTIONS,10,Hayir,No,Нет,Ні
-,,10,ENKO ,ENKO,ENKO,ENKO
-,,10,K.Tanimli,U.Defined,Оп. Польз,Вияв. Корист
-,,,,,,
-,PARAMETER SAVE,10,Hayir  ,No ,Нет,Ні
-,,10,Yedekle,Backup,Резерв.,Резерв.
-,,10,Kullan ,Use,Использ,Викорис
-,,,,,,
-,PRESSURE LOSS PREVENT,10,Pasif,Passive,Пассивныи,Пасивний
-,,10,Adim,Step,Шаг,Крок
-,,10,Egim,Slope,Склон,Slope
-,,,,,,
-,ACTIVE-PASSIVE TEXTS,10,Pasif,Passive,Пассивныи,Пасивний
-,,10,Aktif,Active,Активныи,Активний
-,,,,,,
-,HORN MODE,10,Surekli,Continuous,Непрерывнo,Безперер
-,,10,Darbeli,Pulse,Импульс,Імпульс
-,,,,,,
-,LANGUAGE OPTIONS,10,Turkce   ,Turkish ,Tурецкии,Турецький
-,,10,ingilizce,English ,Aнглииски,Англійський
-,,10,K.Tanimli,U.Defined,Оп. Польз,Об.Корист
-,,,,,,
-,WRONG PASSWORD,16,Hatali Sifre  ,Wrong Password,Неправ. Пароль,НевірнийПароль
-,,,,,,
-,PARAMETER TITLE,16,Parametreler    ,Parameters,Параметры,Параметри
-,,,,,,
-,COMPRESSOR COUNTERS,5,S/S =,S/S =,S/S =,S/S =
-,,5,OLT =,OLT =,OLT =,OLT =
-,,,,,,
-,DYNAMIC PASSWORD OPTIONS,9,Pasif,Passive,Пассивный,Пасивний
-,,9,Tales,Thales,История,Історія
-,,9,Kopernik,Copernicus,Коперник,Copernicus
-,,9,Galileo,Galileo,Галилео,Galileo
-,,9,Kepler,Kepler,Кеплер,Kepler
-,,9,Newton,Newton,Ньютон,Newton
-,,9,Orsted,Orsted,Эрстед,Orsted
-,,9,Ampera,Ampera,Ампер,Ampera
-,,9,Lenz,Lenz,Ленц,Lenz
-,,9,Faraday,Faraday,Фарадей,Faraday
-,,9,Maxwell,Maxwell,Максвелл,Maxwell
-,,,,,,
-,DYNAMIC PASSWORD CODE TEXT,9,Kod:,Code:,Код:,Код:
-,,,,,,
-,DYNAMIC PASSWORD LEVELS,13,Kullanici,User,Пользователь,Користувач
-,,13,Servis,Service,Сервисный,Сервісний
-,,13,Fabrika,Factory,Заводской,Заводс.
-,,,,,,
-,INVERTOR MODELS,10,Yld-Ucgen,StarDelta,,StarDelta
-,,10,MITF800,MITF800,,MITF800
-,,10,ACS580,ACS580,,ACS580
-,,10,Ykw.A1000,Ykw.A1000,,Ykw.A1000
-,,10,DnfsFC102,DnfsFC102,,DnfsFC102
-,,,,,,
-,,,,,,
-,PARALEL CONTROL STATES,9,SENKRON,SYNCING,,Синхрон
-,,9,BLOKLU,BLOCKED,,Заблок
-,,9,HATA,FAULT,,Помилка
-,,9,HAZIR,STANDBY,,Очікув
-,,9,DINLENME,RESTING,,Відпоч
-,,9,BASLAMA,STARTING,,Запуск
-,,9,GECIS,TRANSFER,,Передача
-,,9,CALISMA,RUNNING,,В роботі
-,,,,,,
-,PARALEL CONTROL MONITOR,3,ID:,ID:,,ID:
-,,4,Yas:,Age:,,Age:
-,,6,Durum:,State:,,State:
+1000,#MSG_GROUP_SUPPLY#,7,Besleme,Power  ,Питание,Живл.
+1000,#MSG_GROUP_SUPPLY#,7,Sensor ,Sensor ,Датчик,Датчик
+1000,#MSG_GROUP_PHASE#,4,Vr =,Vr =,Vr =,Vr =
+1000,#MSG_GROUP_PHASE#,4,Vs =,Vs =,Vs =,Vs =
+1000,#MSG_GROUP_PHASE#,4,Vt =,Vt =,Vt =,Vt =
+1000,#MSG_GROUP_PHASE#,4,Fr =,Fr =,Fr =,Fr =
+1000,#MSG_GROUP_COMPSTATE#,12,DURACAK,STOPPING,Остановка,Зупинка
+1000,#MSG_GROUP_COMPSTATE#,12,IC BAS.YUKS.,HIGH INT.PR.,Выс вх. давл,Вис вх. тиск
+1000,#MSG_GROUP_COMPSTATE#,12,ON ISITMA BO,PREHEAT OFLD,ПреднагрРазг,ПопереднагрР
+1000,#MSG_GROUP_COMPSTATE#,12,ON ISITMA YU,PREHEAT ONLD,ПреднагрНагр,ПопереднагрН
+1000,#MSG_GROUP_COMPSTATE#,12,CALISMA GCKM,START DELAY,Задерж пуска,ЗатримкаПуск
+1000,#MSG_GROUP_COMPSTATE#,12,BOSTA,IDLE,Пусто,Пусто
+1000,#MSG_GROUP_COMPSTATE#,12,HAVA TAHLIYE,DISCHARGE,Разгрузка,Розвант
+1000,#MSG_GROUP_COMPSTATE#,12,DURUYOR,READY,Остановлен,Зупинений
+1000,#MSG_GROUP_COMPSTATE#,12,YUKE GECIYOR,ON LOADING,В загрузке,В завант
+1000,#MSG_GROUP_COMPSTATE#,12,YUKTE,ONLOAD,Загрузка,Завант
+1000,#MSG_GROUP_COMPSTATE#,12,BOSTA,IDLE,Пусто,Пусто
+1000,#MSG_GROUP_COMPSTATE#,12,BOSTA,IDLE,Пусто,Пусто
+1000,#MSG_GROUP_COMPSTATE#,12,Oto. Bekleme,Auto Waiting,Авто ожидан,Авто Очік
+1000,#MSG_GROUP_COMPSTATE#,12,Motor Yolver,Motor Start,Старт двиг.,СтартДвигун
+1000,#MSG_GROUP_COMPSTATE#,12,BOSTA (S.Kalkis),IDLE (SSL)      ,Мак кол пуск,Макс кіл.зап
+1000,#MSG_GROUP_PARAMS#,16,Basinc,Pressure,Давление,Тиск
+1000,#MSG_GROUP_PARAMS#,16,Zamanlama,Timer,Таимер,Таймер
+1000,#MSG_GROUP_PARAMS#,16,Dijital Giris,Digital Inputs,Цифр. входы,Цифр. Входи
+1000,#MSG_GROUP_PARAMS#,16,Dijital Cikis,Digital Outputs,Цифр выходы,Цифр.Виходи
+1000,#MSG_GROUP_PARAMS#,16,Bakım Sureleri,Maint. Timer,Таимеры ТО,Таймери ТО
+1000,#MSG_GROUP_PARAMS#,16,Kalibrasyon,Calibration,Калибровка,Калібруван
+1000,#MSG_GROUP_PARAMS#,16,Sicaklik,Temperature,Температура,Температура
+1000,#MSG_GROUP_PARAMS#,16,Sebeke,Mains Supply,Питание сети,Живлення
+1000,#MSG_GROUP_PARAMS#,16,Genel Ayarlar,General Settings,Общие настр.,Загальні нал
+1000,#MSG_GROUP_PARAMS#,16,Invertor Ayar,Inverter Sets. ,инвертор настр.,Інвертор нал
+2004,#MSG_GROUP_PARAMS#,16,Par. Kontrol,Par. Control,Par. Control,Пар.Контроль
+1006,#MSG_GROUP_PRESS#,16,Basinc Sens. Tip ,Press.Sensor Typ ,Тип датчи. давл.,Тип датчик тис.
+1006,#MSG_GROUP_PRESS#,5,P001>,P001>,P001>,P001>
+1000,#MSG_GROUP_PRESS#,16,Bosa Gecme Bsn. ,Stop Pressure   ,Давл. остан.,Тиск зупинки
+1000,#MSG_GROUP_PRESS#,5,P002>,P002>,P002>,P002>
+1000,#MSG_GROUP_PRESS#,16,Yuke Gecme Bsn.,Start Pressure ,Давл. пуска,Тиск запуск
+1000,#MSG_GROUP_PRESS#,5,P003>,P003>,P003>,P003>
+1000,#MSG_GROUP_PRESS#,16,Cikis Bsn. Alarm,High Press.Alarm,Трев. Выс. Давл,Трив. Вис. Тиск  
+1000,#MSG_GROUP_PRESS#,5,P004>,P004>,P004>,P004>
+1000,#MSG_GROUP_PRESS#,16,Cikis Bsn. Uyari,High Press. Warn ,Предуп. Выс Давл,Попер. Вис. Тиск
+1000,#MSG_GROUP_PRESS#,5,P005>,P005>,P005>,P005>
+1000,#MSG_GROUP_PRESS#,16,ic Bsn Sensor ,2nd Press.Sensor ,2-и датчик давл.,2-й датчик тиску
+1000,#MSG_GROUP_PRESS#,5,P006>,P006>,P006>,P006>
+1000,#MSG_GROUP_PRESS#,16,Min Ic Bas Bsn.,Min Int. Press.,Внутрн. Давление,Внутрішній тиск
+1000,#MSG_GROUP_PRESS#,5,P007>,P007>,P007>,P007>
+1000,#MSG_GROUP_PRESS#,16,Ic Bsn. Ariza  ,H.Int.Pres.Alarm,Трев. Выс. Внут,Трив.Вис.ВнутрТ
+1000,#MSG_GROUP_PRESS#,5,P008>,P008>,P008>,P008>
+1000,#MSG_GROUP_PRESS#,16,Ic Bsn. Uyari  ,H.Int.Press.Warn,Предуп Выс Внут,Попер.Вис.ВнутТ
+1000,#MSG_GROUP_PRESS#,5,P009>,P009>,P009>,P009>
+1000,#MSG_GROUP_PRESS#,16,Basinc Birim    ,Pressure Unit  ,Измер. Давления,Одиниця тиску.
+1000,#MSG_GROUP_PRESS#,5,P010>,P010>,P010>,P010>
+1000,#MSG_GROUP_PRESS#,16,Basinc Farki Arz,DeltaPress Alarm,Трев разн. Давл.,Трив різн. Тиск
+1000,#MSG_GROUP_PRESS#,5,P011>,P011>,P011>,P011>
+1000,#MSG_GROUP_PRESS#,16,Basinc Farki Uyr,DeltaPress Warn ,Пред разн. Давл.,Попер.Різн.Тиск
+1000,#MSG_GROUP_PRESS#,5,P012>,P012>,P012>,P012>
+1000,#MSG_GROUP_PRESS#,16,Yeterlilik Bsn. ,SufficiencyPress,Достато.давление,Достатній тиск
+1000,#MSG_GROUP_PRESS#,5,P013>,P013>,P013>,P013>
+1000,#MSG_GROUP_PRESS#,16,Stand. Bsn Yukle,Stand.Press Load,Выбор.Уров.Давл.,Вибір рівняТиск
+1000,#MSG_GROUP_PRESS#,5,P014>,P014>,P014>,P014>
+1000,#MSG_GROUP_TIME#,16,Baslama Gecikme.,Start Delay,Задержка запуска,Затримка запуск
+1000,#MSG_GROUP_TIME#,5,P021>,P021>,P021>,P021>
+1000,#MSG_GROUP_TIME#,16,Durma Suresi    ,Stopping Time   ,Время остановки,Час зупинки
+1000,#MSG_GROUP_TIME#,5,P022>,P022>,P022>,P022>
+1000,#MSG_GROUP_TIME#,16,Hava Tahliye   ,Discharge   ,Сброс воздуха,Скидання повітр
+1000,#MSG_GROUP_TIME#,5,P023>,P023>,P023>,P023>
+1000,#MSG_GROUP_TIME#,16,YuktenOnceBekle,Delay For Load    ,Задержка загруз,Затримка завант
+1000,#MSG_GROUP_TIME#,5,P024>,P024>,P024>,P024>
+1000,#MSG_GROUP_TIME#,16,Tekrar YukeGecme,PassAgain Onload,НагрНаХолХоду,НавантНаХолХоді
+1000,#MSG_GROUP_TIME#,5,P025>,P025>,P025>,P025>
+1000,#MSG_GROUP_TIME#,16,Otomatik Bekleme,Auto Waiting ,Авто ожидание,Авто очікування
+1000,#MSG_GROUP_TIME#,5,P026>,P026>,P026>,P026>
+1000,#MSG_GROUP_TIME#,16,Elektrik Kesinti,Power Cut       ,Откл питания,Вимк живлення
+1000,#MSG_GROUP_TIME#,5,P027>,P027>,P027>,P027>
+1000,#MSG_GROUP_TIME#,16,Yildiz Suresi   ,Star Duration   ,Продолж. Звезды,Тривалість зірк
+1000,#MSG_GROUP_TIME#,5,P028>,P028>,P028>,P028>
+1000,#MSG_GROUP_TIME#,16,Ana Kontak      ,Main Contactor ,Главн. Контактор,Головн. Контакт
+1000,#MSG_GROUP_TIME#,5,P029>,P029>,P029>,P029>
+1000,#MSG_GROUP_TIME#,16,Ucgen Gecis     ,Delta Transition,Перех на треугол,Перехід на трик
+1000,#MSG_GROUP_TIME#,5,P030>,P030>,P030>,P030>
+1000,#MSG_GROUP_TIME#,16,On isitma Yukte ,Preheat Onload  ,Подогрев в загру,Підігрів в зав
+1000,#MSG_GROUP_TIME#,5,P031>,P031>,P031>,P031>
+1000,#MSG_GROUP_TIME#,16,On isitma Bosta ,Preheat Idle    ,Подогр в хол ход,Підігрів в ХХ
+1000,#MSG_GROUP_TIME#,5,P032>,P032>,P032>,P032>
+1000,#MSG_GROUP_TIME#,16,Cikis Bsn. Ariza,High Press Alarm,Тревг давлен лин,Тривог вис тиск
+1000,#MSG_GROUP_TIME#,5,P033>,P033>,P033>,P033>
+1000,#MSG_GROUP_TIME#,16,Ic Bsn. Ariza  ,Int. Press Alarm,Тревг внут давл.,Тривог внутр т
+1000,#MSG_GROUP_TIME#,5,P034>,P034>,P034>,P034>
+1000,#MSG_GROUP_TIME#,16,Bsn Farki Ariza ,DeltaPress Alarm,Трев давл Дельты,Тривог тиск дел
+1000,#MSG_GROUP_TIME#,5,P035>,P035>,P035>,P035>
+1000,#MSG_GROUP_TIME#,16,Fan Calisma Sure,Fan Working Time,Время раб вентил,Час роботи вент
+1000,#MSG_GROUP_TIME#,5,P036>,P036>,P036>,P036>
+1000,#MSG_GROUP_TIME#,16,Kurutucu Suresi ,Dryer Duration  ,Продолж. Сушки,Тривалість осуш
+1000,#MSG_GROUP_TIME#,5,P037>,P037>,P037>,P037>
+1000,#MSG_GROUP_TIME#,16,Yeterlilik Geck.,Sufficiency     ,ЗадерПерепДавл,ЗатрПерепТиск
+1000,#MSG_GROUP_TIME#,5,P038>,P038>,P038>,P038>
+1000,#MSG_GROUP_TIME#,16,Korna Suresi    ,Horn Duration   ,Продол. Сигнала,Трив.сигналу
+1000,#MSG_GROUP_TIME#,5,P039>,P039>,P039>,P039>
+1000,#MSG_GROUP_TIME#,16,Reserved,Reserved,Reserved,Reserved
+1000,#MSG_GROUP_TIME#,5,P040>,P040>,P040>,P040>
+1017,#MSG_GROUP_TIME#,16,Booster Gecikme,Booster Delay,Booster Delay,Booster Delay
+1017,#MSG_GROUP_TIME#,5,P041>,P041>,P041>,P041>
+1000,#MSG_GROUP_INPUT#,16,DI  -Fonksiyon  ,DI  -Function,DI  -Функция,DI  -Функція
+1000,#MSG_GROUP_INPUT#,5,P   >,P   >,P   >,P   >
+1000,#MSG_GROUP_INPUT#,11,DI  -Gecikme    ,DI  -Delay      ,DI  -Задержка,DI  -Затримка
+1000,#MSG_GROUP_INPUT#,5,P   >,P   >,P   >,P   >
+1000,#MSG_GROUP_INPUT#,11,DI  -Kontak Tipi,DI  -Contact Type,DI  -Тип контакт,DI  -Тип контакт
+1000,#MSG_GROUP_INPUT#,5,P   >,P   >,P   >,P   >
+1000,#MSG_GROUP_INPUT#,11,DI  -Tipi,DI  -Type,DI  -Type,DI  -Type
+1000,#MSG_GROUP_INPUT#,5,P   >,P   >,P   >,P   >
+1000,#MSG_GROUP_OUTPUT#,16,DO  -Fonksiyon  ,DO  -Function,DO  -Функция,DO  -Функція
+1000,#MSG_GROUP_OUTPUT#,5,P   >,P   >,P   >,P   >
+1000,#MSG_GROUP_OUTPUT#,11,DO  -Gecikme    ,DO  -Delay      ,DO  -Задержка,DO  -Затримка
+1000,#MSG_GROUP_OUTPUT#,5,P   >,P   >,P   >,P   >
+1000,#MSG_GROUP_OUTPUT#,11,DO  -Kontak Tipi,DO  -Contact Type,DO  -Тип контакт,DO  -Тип контакт
+1000,#MSG_GROUP_OUTPUT#,5,P   >,P   >,P   >,P   >
+1000,#MSG_GROUP_OUTPUT#,11,DO  -Tipi,DO  -Type,DO  -Type,DO  -Type
+1000,#MSG_GROUP_OUTPUT#,5,P   >,P   >,P   >,P   >
+1000,#MSG_GROUP_SERVICE#,16,Genel Bakim     ,General Maint.  ,Общее тех обсл,ЗагальнеТехобсл
+1000,#MSG_GROUP_SERVICE#,5,P140>,P140>,P140>,P140>
+1000,#MSG_GROUP_SERVICE#,16,Rulman Bakim    ,Bearing Lubric. ,Смазка подшипник,Змащ. підш
+1000,#MSG_GROUP_SERVICE#,5,P141>,P141>,P141>,P141>
+1000,#MSG_GROUP_SERVICE#,16,YagDegisim Bakim,Change Oil ,Замена масла,Заміна масла
+1000,#MSG_GROUP_SERVICE#,5,P142>,P142>,P142>,P142>
+1000,#MSG_GROUP_SERVICE#,16,HavaFiltre Bakim,Change AirFilter,Замен возд фильт,ЗамінаПовФільт
+1000,#MSG_GROUP_SERVICE#,5,P143>,P143>,P143>,P143>
+1000,#MSG_GROUP_SERVICE#,16,Yag Filtre Bakim,Change OilFilter,Замен масл фильт,ЗамінаМаслФільт
+1000,#MSG_GROUP_SERVICE#,5,P144>,P144>,P144>,P144>
+1000,#MSG_GROUP_SERVICE#,16,Sep.Filtre Bakim,Change Seperator,Замен сепаратор,ЗамінаСепаратор
+1000,#MSG_GROUP_SERVICE#,5,P145>,P145>,P145>,P145>
+1000,#MSG_GROUP_SERVICE#,16,Reserved,Reserved,Reserved,Reserved
+1000,#MSG_GROUP_SERVICE#,5,P146>,P146>,P146>,P146>
+1000,#MSG_GROUP_SERVICE#,16,Reserved,Reserved,Reserved,Reserved
+1000,#MSG_GROUP_SERVICE#,5,P147>,P147>,P147>,P147>
+1000,#MSG_GROUP_SERVICE#,16,Durma Aktivasyon,Activate Stop,Акт-вать тревогу,Активувати трив
+1000,#MSG_GROUP_SERVICE#,5,P148>,P148>,P148>,P148>
+1000,#MSG_GROUP_SERVICE#,16,Bakim Sifirlama,Maintaince Reset,Сброс тех. обсл.,Скид.тех.обсл.
+1000,#MSG_GROUP_SERVICE#,5,P149>,P149>,P149>,P149>
+1000,#MSG_GROUP_SERVICE_RESET#,10,Hayir,None  ,Нет,Ні
+1000,#MSG_GROUP_SERVICE_RESET#,10,Genel,General  ,Общии,Загальні
+1000,#MSG_GROUP_SERVICE_RESET#,10,Rulman,Bearing ,Подшипник,Підшипник
+1000,#MSG_GROUP_SERVICE_RESET#,10,YagDegisim,OilChange  ,Замен.масл,Замін.масл
+1000,#MSG_GROUP_SERVICE_RESET#,10,Hava Filtre,Air Filter,Возд.фильт,Повітр.фільтр
+1000,#MSG_GROUP_SERVICE_RESET#,10,Yag Filtre,Oil Filter  ,Масл.фильт,Масл.фільтр
+1000,#MSG_GROUP_SERVICE_RESET#,10,Sep.Filtre,Sep.Filter  ,ФильтСепар,Фільтр сепар
+1000,#MSG_GROUP_SERVICELEFT#,16,Genel Bakim     ,General Maint.  ,Общее тех обсл,ЗагальнеТехобсл
+1000,#MSG_GROUP_SERVICELEFT#,5,P140>,P140>,P140>,P140>
+1000,#MSG_GROUP_SERVICELEFT#,16,Rulman Bakim    ,Bearing Lubric. ,Смазка подшипник,Змащ. підш
+1000,#MSG_GROUP_SERVICELEFT#,5,P141>,P141>,P141>,P141>
+1000,#MSG_GROUP_SERVICELEFT#,16,YagDegisim Bakim,Change Oil ,Замена масла,Заміна масла
+1000,#MSG_GROUP_SERVICELEFT#,5,P142>,P142>,P142>,P142>
+1000,#MSG_GROUP_SERVICELEFT#,16,HavaFiltre Bakim,Change AirFilter,Замен возд фильт,ЗамінаПовФільт
+1000,#MSG_GROUP_SERVICELEFT#,5,P143>,P143>,P143>,P143>
+1000,#MSG_GROUP_SERVICELEFT#,16,Yag Filtre Bakim,Change OilFilter,Замен масл фильт,ЗамінаМаслФільт
+1000,#MSG_GROUP_SERVICELEFT#,5,P144>,P144>,P144>,P144>
+1000,#MSG_GROUP_SERVICELEFT#,16,Sep.Filtre Bakim,Change Seperator,Замен сепаратор,ЗамінаСепаратор
+1000,#MSG_GROUP_SERVICELEFT#,5,P145>,P145>,P145>,P145>
+1000,#MSG_GROUP_SERVICELEFT#,16,Toplam Calisma  ,Total Hour,Общее время,Загальний час
+1000,#MSG_GROUP_SERVICELEFT#,5,Pnon>,Pnon>,Pnon>,Pnon>
+1000,#MSG_GROUP_SERVICELEFT#,16,Yukte Calisma   ,Loading Hour   ,Время в загрузке,Час в завант.
+1000,#MSG_GROUP_SERVICELEFT#,5,Pnon>,Pnon>,Pnon>,Pnon>
+1000,#MSG_GROUP_CALIB#,16,Cikis Bsn.Offset,OutPress. Offset,Смещ.вых.давлен,Зміщ.вих.тиск
+1000,#MSG_GROUP_CALIB#,5,P150>,P150>,P150>,P150>
+1000,#MSG_GROUP_CALIB#,16,Cikis Bsn.Kazanc,OutPress. Gain,Увел.вых.давлен,Збільш.вих.тиск
+1000,#MSG_GROUP_CALIB#,5,P151>,P151>,P151>,P151>
+1000,#MSG_GROUP_CALIB#,16,Cikis Bsn.Limit,OutPress. Limit,Лимит.вых.давле,Ліміт.вих.тиск
+1000,#MSG_GROUP_CALIB#,5,P152>,P152>,P152>,P152>
+1000,#MSG_GROUP_CALIB#,16,Ic Basinc Offset ,Int.Press Offset,Смещ.внут.давлен,Зміщ.внут.тиск
+1000,#MSG_GROUP_CALIB#,5,P153>,P153>,P153>,P153>
+1000,#MSG_GROUP_CALIB#,16,Ic Basinc Kazanc,Int.Press Gain,Увел.внут.давлен,Збільш.внут.тиск
+1000,#MSG_GROUP_CALIB#,5,P154>,P154>,P154>,P154>
+1000,#MSG_GROUP_CALIB#,16,Ic Basinc Limit,Int.Press Limit,Лимит.внут.давле,Ліміт.внут.тиск
+1000,#MSG_GROUP_CALIB#,5,P155>,P155>,P155>,P155>
+1000,#MSG_GROUP_CALIB#,16,Sicaklik Offset ,Temperat. Offset,Смещ Температуры,Зміщ тем.
+1000,#MSG_GROUP_CALIB#,5,P156>,P156>,P156>,P156>
+1000,#MSG_GROUP_CALIB#,16,Sicaklik Kazanc ,Temperat. Gain  ,Увел Температуры,Збільш темп.
+1000,#MSG_GROUP_CALIB#,5,P157>,P157>,P157>,P157>
+1000,#MSG_GROUP_CALIB#,16,Vr Offset       ,Vr Offset       ,Смещ Фазы R,Зміщ фази R
+1000,#MSG_GROUP_CALIB#,5,P158>,P158>,P158>,P158>
+1000,#MSG_GROUP_CALIB#,16,Vr Kazanc       ,Vr Gain         ,КоэфУсилФазы R,КоефПідвФази R
+1000,#MSG_GROUP_CALIB#,5,P159>,P159>,P159>,P159>
+1000,#MSG_GROUP_CALIB#,16,Vs Offset      ,Vs Offset       ,Смещ Фазы S,Зміщ фази S
+1000,#MSG_GROUP_CALIB#,5,P160>,P160>,P160>,P160>
+1000,#MSG_GROUP_CALIB#,16,Vs Kazanc       ,Vs Gain         ,КоэфУсилФазы S,КоефПідвФази S
+1000,#MSG_GROUP_CALIB#,5,P161>,P161>,P161>,P161>
+1000,#MSG_GROUP_CALIB#,16,Vt Offset       ,Vt Offset       ,Смещ Фазы T,Зміщ фази Т
+1000,#MSG_GROUP_CALIB#,5,P162>,P162>,P162>,P162>
+1000,#MSG_GROUP_CALIB#,16,Vt Kazanc       ,Vt Gain ,КоэфУсилФазы T,КоефПідвФази Т
+1000,#MSG_GROUP_CALIB#,5,P163>,P163>,P163>,P163>
+1000,#MSG_GROUP_TEMP#,16,Sck1 Yuksek Arz.,Temp1 High Alarm,Тревог Выс Темп1,Тривог вис темп1
+1000,#MSG_GROUP_TEMP#,5,P172>,P172>,P172>,P172>
+1000,#MSG_GROUP_TEMP#,16,Sck1 Yuksek Uyr.,Temp1 High Warn ,Предуп.Выс.Темп1,Попер.вис.темп1
+1000,#MSG_GROUP_TEMP#,5,P173>,P173>,P173>,P173>
+1000,#MSG_GROUP_TEMP#,16,Sck1 Dusuk Arz. ,Temp1 Low Alarm ,Тревог Низ Темп1,Тривог низ темп1
+1000,#MSG_GROUP_TEMP#,5,P174>,P174>,P174>,P174>
+1000,#MSG_GROUP_TEMP#,16,Sck1 Dusuk Uyr. ,Temp1 Low Warn  ,Предуп.Низ.Темп1,Попер.низ темп1
+1000,#MSG_GROUP_TEMP#,5,P175>,P175>,P175>,P175>
+1000,#MSG_GROUP_TEMP#,16,On Isit Siniri  ,Preheat Limit ,ПредПрогрЛимит,ПоперПрогрЛіміт
+1000,#MSG_GROUP_TEMP#,5,P176>,P176>,P176>,P176>
+1000,#MSG_GROUP_TEMP#,16,Sck1 Sensor Tipi,Temp1 SensorType,ТипДатчика Темп1,ТипДатч Темп1
+1000,#MSG_GROUP_TEMP#,5,P177>,P177>,P177>,P177>
+1000,#MSG_GROUP_TEMP#,16,Sicaklik Birimi ,Temperature Unit,Ед.измер.темпер,Од.вимір.темп
+1000,#MSG_GROUP_TEMP#,5,P178>,P178>,P178>,P178>
+1000,#MSG_GROUP_TEMP#,16,Fan Baslama     ,Fan Start       ,Темп старт вент,Темп старт вент
+1000,#MSG_GROUP_TEMP#,5,P179>,P179>,P179>,P179>
+1000,#MSG_GROUP_TEMP#,16,Fan Durma       ,Fan Stop ,Темп стоп вентил,Темп стоп вент
+1000,#MSG_GROUP_TEMP#,5,P180>,P180>,P180>,P180>
+1000,#MSG_GROUP_TEMP#,16,Kurutucu Baslama        ,Dryer Start,Темп старт осуши,Темп старт осуш
+1000,#MSG_GROUP_TEMP#,5,P181>,P181>,P181>,P181>
+1000,#MSG_GROUP_TEMP#,16,Kurutucu Durma,Dryer Stop,Темп стоп осушит,Темп стоп осуш
+1000,#MSG_GROUP_TEMP#,5,P182>,P182>,P182>,P182>
+1000,#MSG_GROUP_TEMP#,16,PTC Aktif ,PTC Activate ,Активировать PTC,Активувати РТС
+1000,#MSG_GROUP_TEMP#,5,P183>,P183>,P183>,P183>
+1000,#MSG_GROUP_TEMP#,16,Sck2 Yuksek Arz.,Temp2 High Alarm,Тревог Выс Темп2,Тривог вис темп2
+1000,#MSG_GROUP_TEMP#,5,P184>,P184>,P184>,P184>
+1000,#MSG_GROUP_TEMP#,16,Sck2 Yuksek Uyr.,Temp2 High Warn ,Предуп.Выс.Темп2,Попер.вис.темп2
+1000,#MSG_GROUP_TEMP#,5,P185>,P185>,P185>,P185>
+1000,#MSG_GROUP_TEMP#,16,Sck2 Dusuk Arz. ,Temp2 Low Alarm ,Тревог Низ Темп2,Тривог низ темп2
+1000,#MSG_GROUP_TEMP#,5,P186>,P186>,P186>,P186>
+1000,#MSG_GROUP_TEMP#,16,Sck2 Dusuk Uyr. ,Temp2 Low Warn  ,Предуп.Низ.Темп2,Попер.низ темп2
+1000,#MSG_GROUP_TEMP#,5,P187>,P187>,P187>,P187>
+1000,#MSG_GROUP_TEMP#,16,Sck2 Sensor Tipi,Temp2 SensorType,ТипДатчика Темп2,Тип датч Темп2
+1000,#MSG_GROUP_TEMP#,5,P188>,P188>,P188>,P188>
+1000,#MSG_GROUP_TEMP#,16,Sck2 Sensor Modu,Temp2 SensorMode,Режим Датч Темп2,Режим датч темп2
+1000,#MSG_GROUP_TEMP#,5,P189>,P189>,P189>,P189>
+1000,#MSG_GROUP_TEMP#,16,Basinc Komp. Sck,Press Comp.Temp.,ТемпДавлНагнетан,Темп тиску нагніт
+1000,#MSG_GROUP_TEMP#,5,P190>,P190>,P190>,P190>
+1000,#MSG_GROUP_TEMP#,16,Yag Donma Onleme,Oil Freeze Prvnt,ТемпЗаморозМасл,Темп замерз масл
+1000,#MSG_GROUP_TEMP#,5,P191>,P191>,P191>,P191>
+1000,#MSG_GROUP_MAINS#,16,Dengesizlik     ,Volt Unbalance,Дисбаланс Напряж,Дисбаланс напруг
+1000,#MSG_GROUP_MAINS#,5,P200>,P200>,P200>,P200>
+1000,#MSG_GROUP_MAINS#,16,Volt Dusuk Ariza,Low Volt. Alarm  ,Трев.Низк.Напряж,Трив.низ.напруга
+1000,#MSG_GROUP_MAINS#,5,P201>,P201>,P201>,P201>
+1000,#MSG_GROUP_MAINS#,16,Volt Dusuk Uyari,Low Volt. Warn   ,ПредупНизкНапряж,ПоперНиз.Напруга
+1000,#MSG_GROUP_MAINS#,5,P202>,P202>,P202>,P202>
+1000,#MSG_GROUP_MAINS#,16,Volt Yuksek Arz.,High Volt. Alarm,Трев.Выск.Напряж,Трив.Вис.Напруга
+1000,#MSG_GROUP_MAINS#,5,P203>,P203>,P203>,P203>
+1000,#MSG_GROUP_MAINS#,16,Volt Yuksek Uyr.,High Volt. Warn,ПредупВыскНапряж,ПоперВисНапруга
+1000,#MSG_GROUP_MAINS#,5,P204>,P204>,P204>,P204>
+1000,#MSG_GROUP_MAINS#,16,Frek Dusuk Ariza,Low Freq. Alarm ,Трев.Низк.Частот,Трив.Низ.Частот
+1000,#MSG_GROUP_MAINS#,5,P205>,P205>,P205>,P205>
+1000,#MSG_GROUP_MAINS#,16,Frek Dusuk Uyari,Low Freq. Warn.  ,ПредупНизкЧастот,ПоперНизЧастот
+1000,#MSG_GROUP_MAINS#,5,P206>,P206>,P206>,P206>
+1000,#MSG_GROUP_MAINS#,16,Frek Yuksek Arz.,High Freq. Alarm ,Трев.Выск.Частот,Трив.Вис.Частота
+1000,#MSG_GROUP_MAINS#,5,P207>,P207>,P207>,P207>
+1000,#MSG_GROUP_MAINS#,16,Frek Yuksek Uyr.,High Freq. Warn ,ПредупВыскЧастот,ПоперВис.Частота
+1000,#MSG_GROUP_MAINS#,5,P208>,P208>,P208>,P208>
+1000,#MSG_GROUP_MAINS#,16,Baglanti Sekli  ,Main Supply Type,Тип Глав Питания,Тип Головн Живл
+1000,#MSG_GROUP_MAINS#,5,P209>,P209>,P209>,P209>
+1000,#MSG_GROUP_MAINS#,16,FazSirasi Koruma,PhaseSeq Control,Контроль фаз,Контроль фаз
+1000,#MSG_GROUP_MAINS#,5,P210>,P210>,P210>,P210>
+1000,#MSG_GROUP_MAINS#,16,Sebeke Arizalari,Mains Faults    ,Неисправн в сети,Несправн.в мереж
+1000,#MSG_GROUP_MAINS#,5,P211>,P211>,P211>,P211>
+1000,#MSG_GROUP_MAINSTYPE#,10,1Faz+N,1Ph+N,1ФазаN,1ФазаN
+1000,#MSG_GROUP_MAINSTYPE#,10,3Faz+N,3Ph+N,3ФазыN,3ФазиN
+1000,#MSG_GROUP_MAINSTYPE#,10,3Faz,3Ph,3Фазы,3Фази
+1000,#MSG_GROUP_GENERAL#,16,Fabrika Sifresi ,Factory Password,Заводскои пароль,ЗаводськийПароль
+1000,#MSG_GROUP_GENERAL#,5,P220>,P220>,P220>,P220>
+1000,#MSG_GROUP_GENERAL#,16,Servis Sifresi  ,Service Password,Сервисныи пароль,Сервісний пароль
+1000,#MSG_GROUP_GENERAL#,5,P221>,P221>,P221>,P221>
+1000,#MSG_GROUP_GENERAL#,16,Kullanici Sifre ,User Password   ,Пароль оператора,Пароль оператора
+1000,#MSG_GROUP_GENERAL#,5,P222>,P222>,P222>,P222>
+1000,#MSG_GROUP_GENERAL#,16,ENKO Sifre      ,ENKO Password   ,ENKO пароль,ENKO пароль
+1000,#MSG_GROUP_GENERAL#,5,P223>,P223>,P223>,P223>
+1000,#MSG_GROUP_GENERAL#,16,Maks. Kalkis Ad.,Max. Start Nmb.,Макс Кол Пусков,МаксКіль-тьЗапус
+1000,#MSG_GROUP_GENERAL#,5,P224>,P224>,P224>,P224>
+1000,#MSG_GROUP_GENERAL#,16,Calstrma Kaynagi,Start Source,Начальныи ресурс,Початковий рес.
+1000,#MSG_GROUP_GENERAL#,5,P225>,P225>,P225>,P225>
+1000,#MSG_GROUP_GENERAL#,16,Calisma Modu    ,Working Mode    ,Режим работы,Режим роботи
+1000,#MSG_GROUP_GENERAL#,5,P226>,P226>,P226>,P226>
+1000,#MSG_GROUP_GENERAL#,16,Bosta Suresi S/D,Unload Time S/D   ,Тип врем разгруз,Тип часу розвант
+1000,#MSG_GROUP_GENERAL#,5,P227>,P227>,P227>,P227>
+1000,#MSG_GROUP_GENERAL#,16,Korna Modu      ,Horn Mode ,Режим зуммера,Режим зуммера
+1000,#MSG_GROUP_GENERAL#,5,P228>,P228>,P228>,P228>
+1000,#MSG_GROUP_GENERAL#,16,Bsn Kayip Onleme,PressLose Preve.,ПредупПотерДавлн,ПоперВтратиТиску
+1000,#MSG_GROUP_GENERAL#,5,P229>,P229>,P229>,P229>
+1000,#MSG_GROUP_GENERAL#,16,Parametre Kaydet,Parameter Save  ,Сохран настроек,ЗберіганняНалашт
+1000,#MSG_GROUP_GENERAL#,5,P230>,P230>,P230>,P230>
+1000,#MSG_GROUP_GENERAL#,16,Modbus ID,Modbus ID,Modbus ID,Modbus ID
+1000,#MSG_GROUP_GENERAL#,5,P231>,P231>,P231>,P231>
+1000,#MSG_GROUP_GENERAL#,16,Lisan           ,Language        ,Язык,Мова
+1000,#MSG_GROUP_GENERAL#,5,P232>,P232>,P232>,P232>
+1000,#MSG_GROUP_GENERAL#,16,Fabrika Ayar.Don,Factory  Reset,Заводские настр,Заводські налашт
+1000,#MSG_GROUP_GENERAL#,5,P233>,P233>,P233>,P233>
+1000,#MSG_GROUP_GENERAL#,16,Ariza Kayit Sil ,Reset Alarm Rec.,СбросЗаписеиТрев,СкидПерелікТрив
+1000,#MSG_GROUP_GENERAL#,5,P234>,P234>,P234>,P234>
+1000,#MSG_GROUP_GENERAL#,16,Çalışma Zam.Res.,WorkHours Reset,СбросЧасовРаботы,СкидГодинРоботи
+1000,#MSG_GROUP_GENERAL#,5,P235>,P235>,P235>,P235>
+1000,#MSG_GROUP_GENERAL#,16,Menu Logout Sure,Menu Logout Time,Врем Вых из меню,Час Вих з Меню
+1000,#MSG_GROUP_GENERAL#,5,P236>,P236>,P236>,P236>
+1000,#MSG_GROUP_GENERAL#,16,Menu Logout     ,Menu Logout     ,Выход из меню,Вихід з меню
+1000,#MSG_GROUP_GENERAL#,5,P237>,P237>,P237>,P237>
+1000,#MSG_GROUP_GENERAL#,16,Dinamik Şifre,Dynamic Password,Динамич пароль,Динаміч пароль
+1000,#MSG_GROUP_GENERAL#,5,P238>,P238>,P238>,P238>
+1006,#MSG_GROUP_GENERAL#,16,Motor Surucu ,Motor Drive ,Режим вождения,Привід Мотора
+1006,#MSG_GROUP_GENERAL#,5,P239>,P239>,P239>,P239>
+1008,#MSG_GROUP_GENERAL#,16,Makine Seri No ,Machn. Ser. No ,Machn. Ser. No ,Серійний номер
+1008,#MSG_GROUP_GENERAL#,5,P340>,P340>,P340>,P340>
+1000,#MSG_GROUP_PARAMS_INVERTER#,16,Frekans Alt Deg,Frequency Min.,Frequency Min.,Частота Мін.
+1000,#MSG_GROUP_PARAMS_INVERTER#,5,P250>,P250>,P250>,P250>
+1000,#MSG_GROUP_PARAMS_INVERTER#,16,Frekans Ust Deg,Frequency Max.,Frequency Max.,Частота Макс.
+1000,#MSG_GROUP_PARAMS_INVERTER#,5,P251>,P251>,P251>,P251>
+1000,#MSG_GROUP_PARAMS_INVERTER#,16,Frekans Etiket,Frequency Rated,Frequency Rated,Номін Частота
+1000,#MSG_GROUP_PARAMS_INVERTER#,5,P252>,P252>,P252>,P252>
+1000,#MSG_GROUP_PARAMS_INVERTER#,16,Rampa Yukselme,Ramp Up Time,Ramp Up Time,Час нарощування
+1000,#MSG_GROUP_PARAMS_INVERTER#,5,P253>,P253>,P253>,P253>
+1000,#MSG_GROUP_PARAMS_INVERTER#,16,Rampa Dusme,Ramp Down Time,Ramp Down Time,Час зниження
+1000,#MSG_GROUP_PARAMS_INVERTER#,5,P254>,P254>,P254>,P254>
+1000,#MSG_GROUP_PARAMS_INVERTER#,16,Kutup Cifti,Pole-Pair,Pole-Pair,Полюс-пара
+1000,#MSG_GROUP_PARAMS_INVERTER#,5,P255>,P255>,P255>,P255>
+1000,#MSG_GROUP_PARAMS_INVERTER#,16,Etiket Akim,Current Rated,Current Rated,Номін струм
+1000,#MSG_GROUP_PARAMS_INVERTER#,5,P256>,P256>,P256>,P256>
+1000,#MSG_GROUP_PARAMS_INVERTER#,16,Etiket Voltaj,Voltage Rated,Voltage Rated,Номін напруга
+1000,#MSG_GROUP_PARAMS_INVERTER#,5,P257>,P257>,P257>,P257>
+1000,#MSG_GROUP_PARAMS_INVERTER#,16,Guc Faktoru,Power Factor,Power Factor,Фактор потужн
+1000,#MSG_GROUP_PARAMS_INVERTER#,5,P258>,P258>,P258>,P258>
+1000,#MSG_GROUP_PARAMS_INVERTER#,16,Etiket Gucu,Power Capacity,Power Capacity,Потужність
+1000,#MSG_GROUP_PARAMS_INVERTER#,5,P259>,P259>,P259>,P259>
+1000,#MSG_GROUP_PASS#,9,Sifre: ,Password:,Пароль:,Пароль:
+1000,#MSG_GROUP_SENSORTYPE#,10,Yok ,None,Нет,Ні
+1000,#MSG_GROUP_SENSORTYPE#,10,Analog,Analog,Аналоговыи,Аналоговий
+1000,#MSG_GROUP_SENSORTYPE#,10,Dijital,Digital,Цифровои,Цифровий
+1000,#MSG_GROUP_PRESSUNIT#,3,BAR,BAR,БАР,БАР
+1000,#MSG_GROUP_PRESSUNIT#,3,PSI,PSI,PSI,PSI
+1000,#MSG_GROUP_TEMPUNIT#,3,C,C,C,C
+1000,#MSG_GROUP_TEMPUNIT#,3,F,F,F,F
+1000,#MSG_GROUP_ACTIVATE#,10,Pasif,Passive,Пассивн,Пасивний
+1000,#MSG_GROUP_ACTIVATE#,10,Aktif,Active,Активны,Активний
+1000,#MSG_GROUP_TEMPSENSOR#,10,NTC,NTC,NTC,NTC
+1000,#MSG_GROUP_TEMPSENSOR#,10,KTY81,KTY81,KTY81,KTY81
+1000,#MSG_GROUP_TEMPSENSOR#,10,PT1000,PT1000,PT1000,PT1000
+1000,#MSG_GROUP_TEMPSENSOR#,10,KTY13.5,KTY13.5,KTY13.5,KTY13.5
+1000,#MSG_GROUP_TEMPSENSOR2MODE#,7,Kapali,Off,Выкл.,Вимкн
+1000,#MSG_GROUP_TEMPSENSOR2MODE#,7,Normal,Normal,Обычны,Звич
+1000,#MSG_GROUP_TEMPSENSOR2MODE#,7,Fark,Diff,Разниц,Різниц
+1000,#MSG_GROUP_INPUTFUNC#,10,Yok,None,Нет,Ні
+1000,#MSG_GROUP_INPUTFUNC#,10,Acil Stop   ,EmerStp,АварКнопка,АварКнопка
+1000,#MSG_GROUP_INPUTFUNC#,10,Seperator,Seperat.,Сепаратор,Сепаратор
+1000,#MSG_GROUP_INPUTFUNC#,10,YagBasinci,OilPres.,Давл.Масла,Тиск.Масла
+1000,#MSG_GROUP_INPUTFUNC#,10,Faz Sirasi,PhaseSeq,Фазировка,Фазування
+1000,#MSG_GROUP_INPUTFUNC#,10,Mot.Termik,Mot. Ovrld,МоторПерег,ПерегрДвиг
+1000,#MSG_GROUP_INPUTFUNC#,10,Fan Termik,Fan Ovrld,ВентПерегр,ПерегрВент
+1000,#MSG_GROUP_INPUTFUNC#,10,Uzak Calis,RemoteSTR,УдалСтарт,ВіддСтарт
+1000,#MSG_GROUP_INPUTFUNC#,10,Baslat Btn,StartBtn,Кноп Старт,Кноп Старт
+1000,#MSG_GROUP_INPUTFUNC#,10,Durdur Btn,StopBtn,Кноп Стоп,Кноп Стоп
+1000,#MSG_GROUP_INPUTFUNC#,10,Uzak Yuk,RemoteLD,УдЗагрРазг,ВідЗавРозв
+1000,#MSG_GROUP_INPUTFUNC#,10,PTC,PTC,PTC,PTC
+1000,#MSG_GROUP_INPUTFUNC#,10,YedekHata1,Aux1 Alarm,ТревРезер1,ТривРезер1
+1000,#MSG_GROUP_INPUTFUNC#,10,YedekHata2,Aux2 Alarm,ТревРезер2,ТривРезер2
+1000,#MSG_GROUP_INPUTFUNC#,10,Sb Sivici,Ln Switch,РелеДавВых,РелеТисВих
+1000,#MSG_GROUP_INPUTFUNC#,10,Vd Sivici,Sc Switch,РелеДавВин,РелеТискВх
+1000,#MSG_GROUP_INPUTFUNC#,10,Hata Silme,FaultClear,Очист.Ошиб,Почист.Пом
+1000,#MSG_GROUP_INPUTFUNC#,10,Kapak Acik,Door Open,Дверь откр,Двері відкр
+1017,#MSG_GROUP_INPUTFUNC#,10,Dusuk Bsnc,Low Press.,,Low Press.
+1000,#MSG_GROUP_OUTPUTFUNC#,10,Yok,None,Нет,Ні
+1000,#MSG_GROUP_OUTPUTFUNC#,10,Ana Kont,Main Con.,ГлКонтроль,ГолКонтр
+1000,#MSG_GROUP_OUTPUTFUNC#,10,YildizKont,Star Con.,ЗвездКонтр,З'єднЗірка
+1000,#MSG_GROUP_OUTPUTFUNC#,10,Ucgen Kont,DeltaCon.,ТреугКонтр,З'єднТрик
+1000,#MSG_GROUP_OUTPUTFUNC#,10,Yuk Valfi ,LoadValve,КлапЗагруз,КлапанЗав
+1000,#MSG_GROUP_OUTPUTFUNC#,10,Ariza,Alarm,Тревога,Тривога
+1000,#MSG_GROUP_OUTPUTFUNC#,10,Uyari,Warning,Ожидание,Очікування
+1000,#MSG_GROUP_OUTPUTFUNC#,10,Alarm,Alarm+Warn,Трев+Преду,Трив+Попер
+1000,#MSG_GROUP_OUTPUTFUNC#,10,Fan,Fan,Вентилятор,Вентилятор
+1000,#MSG_GROUP_OUTPUTFUNC#,10,Yukte,OnLoad,Загрузка,Завантаження
+1000,#MSG_GROUP_OUTPUTFUNC#,10,Yuksuz,Unload,Разгрузка,Розвант
+1000,#MSG_GROUP_OUTPUTFUNC#,10,Calisiyor,Running,Вращается,В роботі
+1000,#MSG_GROUP_OUTPUTFUNC#,10,Duruyor,Stopping,Стоп,Зупинка
+1000,#MSG_GROUP_OUTPUTFUNC#,10,Korna,Horn,Зуммер,Зумер
+1000,#MSG_GROUP_OUTPUTFUNC#,10,Kurutucu-Z,Dryer-Time,ВремяСушки,ЧасОсуш
+1000,#MSG_GROUP_OUTPUTFUNC#,10,Kurutucu-S,Dryer-T2,СушкаТем2,ОсушТем2
+1000,#MSG_GROUP_OUTPUTFUNC#,10,RSS Aktif,RSS Active,RSSАктивен,RSSАктив
+1000,#MSG_GROUP_OUTPUTFUNC#,10,S.Alt Arz,T.LowAlarm,Низк Темп,Низьк Темп
+1000,#MSG_GROUP_OUTPUTFUNC#,10,S.Ust Arz,T.Up Alarm,Выск Темп,Висок Темп
+1000,#MSG_GROUP_OUTPUTFUNC#,10,S.Alt Uyr,T.Low Warn,Низк Темп,Низьк Темп
+1000,#MSG_GROUP_OUTPUTFUNC#,10,S.Ust Uyr,T.Up Warn,Выск Темп,Висок Темп
+1000,#MSG_GROUP_OUTPUTFUNC#,10,P1 Ariza,P1 Alarm,Трев Р1,Трив Р1
+1000,#MSG_GROUP_OUTPUTFUNC#,10,P2 Ariza,P2 Alarm,Трев Р2,Трив Р2
+1000,#MSG_GROUP_OUTPUTFUNC#,10,T1 Ariza,T1 Alarm,Трев Т1,Трив Т1
+1000,#MSG_GROUP_OUTPUTFUNC#,10,T2 Ariza,T2 Alarm,Трев Т2,Трив Т2
+1000,#MSG_GROUP_OUTPUTFUNC#,10,T2 D.Ariza,T2 L.Alarm,НизкТемпТ2,НизТемпТ2
+1000,#MSG_GROUP_OUTPUTFUNC#,10,T2 Y.Ariza,T2 H.Alarm,ВыскТемпТ2,ВисТемпТ2
+1000,#MSG_GROUP_OUTPUTFUNC#,10,T2 D.Uyari,T2 L.Warn,НизкТемпТ2,НизТемпТ2
+1000,#MSG_GROUP_OUTPUTFUNC#,10,T2 Y.Uyari,T2 H.Warn,ВыскТемпТ2,ВисТемпТ2
+1000,#MSG_GROUP_INPUTPOLARITY#,10,NO,NO,Н.Откр,NO
+1000,#MSG_GROUP_INPUTPOLARITY#,10,NC,NC,Н.Закр,NC
+1000,#MSG_GROUP_OUTPUTPOLARITY#,10,NO,NO,Н.Откр,NO
+1000,#MSG_GROUP_OUTPUTPOLARITY#,10,NC,NC,Н.Закр,NC
+1000,#MSG_GROUP_INPUTTYPE#,10,Mantik,Logic,Logic,Logic
+1000,#MSG_GROUP_INPUTTYPE#,10,Yukselen,Rising,Rising,Rising
+1000,#MSG_GROUP_INPUTTYPE#,10,Dusen,Falling,Falling,Falling
+1000,#MSG_GROUP_INPUTTYPE#,10,CiftKenar,Both,Both,Both
+1000,#MSG_GROUP_OUTPUTTYPE#,10,Mantik,Logic,Logic,Logic
+1000,#MSG_GROUP_OUTPUTTYPE#,10,Yukselen,Rising,Rising,Rising
+1000,#MSG_GROUP_OUTPUTTYPE#,10,Dusen,Falling,Falling,Falling
+1000,#MSG_GROUP_OUTPUTTYPE#,10,CiftKenar,Both,Both,Both
+1000,#MSG_GROUP_STARTRESOURCE#,10,PAN-DI-MBS,PAN-DI-MBS,PAN-DI-MBS,PAN-DI-MBS
+1000,#MSG_GROUP_STARTRESOURCE#,10,Panel,Panel,Панель,Панель
+1000,#MSG_GROUP_STARTRESOURCE#,10,DijitalGrs,DigitalInp,Цифр Вход,Цифр Вхід
+1000,#MSG_GROUP_STARTRESOURCE#,10,ModbusRTU,ModbusRTU,МодБас RTU,МодБас RTU
+1000,#MSG_GROUP_STARTRESOURCE#,10,DI-Modbus,DI-Modbus,МодБасЦфВх,DI-Modbus
+1000,#MSG_GROUP_COMP_MODE#,10,Manuel,Manual,В ручную,В ручну
+1000,#MSG_GROUP_COMP_MODE#,10,Otomatik,Auto,Авто,Авто
+2004,#MSG_GROUP_COMP_MODE#,10,Paralel,Parallel,Parallel,Parallel
+1000,#MSG_GROUP_STATE#,16,Ariza Kayitlari ,Alarm Logs      ,Записи Тревог,Записи Тривог
+1000,#MSG_GROUP_STATE#,16,Servis Sureleri ,Maint.Counters  ,Счетчики ТО,Лічильники ТО
+1000,#MSG_GROUP_STATE#,16,Faz Voltajlari  ,Phase Voltages    ,Напряжение фаз,Напруга фаз
+1000,#MSG_GROUP_STATE#,16,Dijital G/C     ,Digital I/O     ,Цифровые Вх/Вых,Цифрові Вх/Вих
+1000,#MSG_GROUP_STATE#,16,Besleme Voltaj. ,Supply Voltages ,Напряж питания,Напруга живл
+1000,#MSG_GROUP_STATE#,16,Komp. Sayaclari ,Comp. Counters  ,ВремяРаботыКомпр,ЧасРоботиКомпрес
+1008,#MSG_GROUP_STATE#,16,Cihaz Bilgisi ,Device Info ,Device Info ,Device Info 
+1000,#MSG_GROUP_STATE#,16,Inverter Takip ,Inverter Monitor ,инвертор Монитор,інвертор Монітор
+2004,#MSG_GROUP_STATE#,16,Paralel Kontrol,Parallel Control,Parallel Control,Parallel Control
+1000,#MSG_GROUP_FAULTS#,16,Cikis Bsn. Uyari,Out Press. Warn,ПредупДавлЛинии,ПоперТискЛінії
+1000,#MSG_GROUP_FAULTS#,16,Ic Basinc Uyari,Int. Press. Warn,Предуп Внут Давл,ПоперВнутрТиск
+1000,#MSG_GROUP_FAULTS#,16,Bsn Farki Uyari,Delta Press Warn,Пред разн. Давл.,ПоперРізнТиску
+1000,#MSG_GROUP_FAULTS#,16,Sck1. Ust Uyari,Temp1 High Warn,Предуп Выс Темп1,ПоперВисТемп1
+1000,#MSG_GROUP_FAULTS#,16,Sck1. Alt Uyari,Temp1 Low Warn,Предуп Низ Темп1,ПоперНизТемп1
+1000,#MSG_GROUP_FAULTS#,16,Elek.Kesinti,Power Intrpt,Отсутст напряж,Відсутн. живл.
+1000,#MSG_GROUP_FAULTS#,16,Servis Seviye1,Service Level1,Сервис обсл1,Сервіс обсл1
+1000,#MSG_GROUP_FAULTS#,16,Sck2 Ust Uyari,Temp2 High Warn,ПредупВысТемп2,ПоперВисТемп2
+1000,#MSG_GROUP_FAULTS#,16,Sck2 Alt Uyari,Temp2 Low Warn,Предуп Низ Темп2,ПоперНизТемп2
+1000,#MSG_GROUP_FAULTS#,16,Vr Yuksek Uyari,Vr High Warn,ПредупВысФаза R,ПоперВисФаза R
+1000,#MSG_GROUP_FAULTS#,16,Vs Yuksek Uyari,Vs High Warn,ПредупВысФаза S,ПоперВисФаза S
+1000,#MSG_GROUP_FAULTS#,16,Vt Yuksek Uyari,Vt High Warn,ПредупВысФаза T,ПоперВисФаза T
+1000,#MSG_GROUP_FAULTS#,16,Vr Dusuk Uyari,Vr Low Warn,ПредупНизФаза R,ПоперНизФаза R
+1000,#MSG_GROUP_FAULTS#,16,Vs Dusuk Uyari,Vs Low Warn,ПредупНизФаза S,ПоперНизФаза S
+1000,#MSG_GROUP_FAULTS#,16,Vt Dusuk Uyari,Vt Low Warn,ПредупНизФаза T,ПоперНизФаза T
+1000,#MSG_GROUP_FAULTS#,16,Fre.Yuksek Uyari,Freq High Warn,ПредВысЧастота,ПоперВисЧаст
+1000,#MSG_GROUP_FAULTS#,16,Fre.Dusuk Uyari,Freq Low Warn,ПредНизЧастота,ПоперНизЧаст
+1000,#MSG_GROUP_FAULTS#,16,Motor Termik,Motor Overload,Мотор перегружен,Перевант Двиг
+1000,#MSG_GROUP_FAULTS#,16,Seperator Filtre,Seperator Filter,Фильтр Сепаратор,Фільтр Сепаратор
+1000,#MSG_GROUP_FAULTS#,16,Fan Termik,Fan Overload,ВентиляторПерегр,Перевант Вентил
+1000,#MSG_GROUP_FAULTS#,16,Faz Sirasi - DI,Phase Seq - DI,Цифр.Вх.Посл.Фаз,Цифр.Вх.Посл.Фаз
+1000,#MSG_GROUP_FAULTS#,16,Acil Stop,Emergency Stop,Аварийная кнопка,Аварійна кнопка
+1000,#MSG_GROUP_FAULTS#,16,Cikis Bsn. Ariza,Out Press. Alarm,Трев Выс Давлен,Трив.Вис.Тиск
+1000,#MSG_GROUP_FAULTS#,16,Ic Basinc Ariza,Int.Press. Alarm,Выс ВнутДавление,Вис ВнутТиск
+1000,#MSG_GROUP_FAULTS#,16,Bsn Farki Ariza,DeltaPress Alarm,Трев разн. Давл.,Трив.Різн.Тиску
+1000,#MSG_GROUP_FAULTS#,16,Sck1 Ust Ariza,Temp1 High Alarm,Трев Выс Темп1,Трив.Вис.Темп1
+1000,#MSG_GROUP_FAULTS#,16,Sck1 Alt Ariza,Temp1 Low  Alarm,Трев Низ Темп1,Трив.Низ.Темп1
+1000,#MSG_GROUP_FAULTS#,16,Yedek - 1 Ariza,Custom - 1 Alarm,Трев по желан 1,Трив по бажан1
+1000,#MSG_GROUP_FAULTS#,16,Yedek - 2 Ariza,Custom - 2 Alarm,Трев по желан 2,Трив по бажан2
+1000,#MSG_GROUP_FAULTS#,16,Maks. Kalkis Ad.,Max. Start Nmb.,Макс Пуск в час,МаксЗапВгодину
+1000,#MSG_GROUP_FAULTS#,16,Cik.Sens. Hatasi,Press.Sens Alarm,Ошибка датчика1,Помилка датч1
+1000,#MSG_GROUP_FAULTS#,16,Ic Sensor Hatasi,Int. Sens Alarm,Ошибка датчика2,Помилка датч2
+1000,#MSG_GROUP_FAULTS#,16,Min Bsn Ulasildi,Reached MinPress,Достиг МинДавл,Досягн МінТиск
+1000,#MSG_GROUP_FAULTS#,16,Servis Seviye2,Service Level2,Сервис обсл2,Сервіс обсл2
+1000,#MSG_GROUP_FAULTS#,16,Servis Seviye3,Service Level3,Сервис обсл3,Сервіс обсл3
+1000,#MSG_GROUP_FAULTS#,16,Servis Seviye4,Service Level4,Сервис обсл4,Сервіс обсл4
+1000,#MSG_GROUP_FAULTS#,16,Servis Seviye5,Service Level5,Сервис обсл5,Сервіс обсл5
+1000,#MSG_GROUP_FAULTS#,16,Vr Yuksek Ariza,Vr High Alarm,ТревВысФаза R,ТривВисФаза R
+1000,#MSG_GROUP_FAULTS#,16,Vs Yuksek Ariza,Vs High Alarm,ТревВысФаза S,ТривВисФаза S
+1000,#MSG_GROUP_FAULTS#,16,Vt Yuksek Ariza,Vt High Alarm,ТревВысФаза T,ТривВисФаза T
+1000,#MSG_GROUP_FAULTS#,16,Vr Dusuk Ariza,Vr Low Alarm,ТревНизФаза R,ТривНизФаза R
+1000,#MSG_GROUP_FAULTS#,16,Vs Dusuk Ariza,Vs Low Alarm,ТревНизФаза S,ТривНизФаза S
+1000,#MSG_GROUP_FAULTS#,16,Vt Dusuk Ariza,Vt Low Alarm,ТревНизФаза T,ТривНизФаза T
+1000,#MSG_GROUP_FAULTS#,16,Faz Sirasi - AI,Phase Seq - AI,Порядок фаз - AI,Порядок фаз - AI
+1000,#MSG_GROUP_FAULTS#,16,PTC Arizasi,PTC Alarm,Тревога PTC,Тривога PTC
+1000,#MSG_GROUP_FAULTS#,16,Acil Stop,Emergency Stop,Аварийная кнопка,Аварійна кнопка
+1000,#MSG_GROUP_FAULTS#,16,Sicaklik1 Hatasi,Temperatr1 Alarm,ДатчТемп1Неиспра,ДатчТемп1Несправ
+1000,#MSG_GROUP_FAULTS#,16,Sicaklik2 Hatasi,Temperatr2 Alarm,ДатчТемп2Неиспра,ДатчТемп2Несправ
+1000,#MSG_GROUP_FAULTS#,16,Sck2 Ust Ariza,Temp2 High Alarm,ТревВыскТемп2,ТривВискТемп2
+1000,#MSG_GROUP_FAULTS#,16,Sck2 Alt Ariza,Temp2 Low Alarm,Трев Низ Темп2,ТривНизТемп2
+1000,#MSG_GROUP_FAULTS#,16,Yuksek Fre.Ariza,High Freq. Alarm,Трев Выс Частота,Трив Вис Частота
+1000,#MSG_GROUP_FAULTS#,16,Dusuk Fre.Ariza,Low Freq. Alarm,Трев Низ Частота,Трив Низ Частота
+1000,#MSG_GROUP_FAULTS#,16,Faz Dengesizligi,Phase Unbalance,Перекос фаз,Перекос фаз
+1000,#MSG_GROUP_FAULTS#,16,Yag Bsn. Ariza,Oil Press. Alarm,ТревДавленМасла,ТривТискМасла
+1000,#MSG_GROUP_FAULTS#,16,Inver. Hab.Ariza,Inver. Com.Alarm,ТревСвязьИнверте,ТривЗвязкІнверто
+1000,#MSG_GROUP_FAULTS#,16,Inver. Gen.Ariza,Inver. Gen.Alarm,ИнвертерОбщТрев,ІнверторЗагТрив
+1000,#MSG_GROUP_FAULTS#,16,Kapak Acik Ariza,Door Open Alarm,Дверь открыта,Двері відкриті
+2004,#MSG_GROUP_FAULTS#,16,Cakisma Hata-ID,ID Conflict,ID Conflict,ID Conflict
+2004,#MSG_GROUP_FAULTS#,16,Cakisma Hata-Yuk,P-Load Conflict,P-Load Conflict,P-Load Conflict
+2004,#MSG_GROUP_FAULTS#,16,Cakisma Hata-Bos,P-Idle Conflict,P-Idle Conflict,P-Idle Conflict
+1017,#MSG_GROUP_FAULTS#,16,Dusuk Basinc Arz,Low Press. Alarm,Low Press. Alarm,Low Press. Alarm
+1000,#MSG_GROUP_ALARM#,16,Ariza Yok   ,No Alarm,Нет неиспр.,Нема помил
+1000,#MSG_GROUP_UNITS#,3,ms ,ms ,мс,мс
+1000,#MSG_GROUP_UNITS#,3,sn ,sec,сек,сек
+1000,#MSG_GROUP_UNITS#,3,dk ,min,мин,хв
+1000,#MSG_GROUP_UNITS#,3,sa ,hr ,час,год
+1000,#MSG_GROUP_YESNO#,10,Hayir,No,Нет,Ні
+1000,#MSG_GROUP_YESNO#,10,Evet   ,Yes,Да,Так
+1000,#MSG_GROUP_FACPARAMS#,10,Hayir,No,Нет,Ні
+1000,#MSG_GROUP_FACPARAMS#,10,ENKO ,ENKO,ENKO,ENKO
+1000,#MSG_GROUP_FACPARAMS#,10,K.Tanimli,U.Defined,Оп. Польз,Вияв. Корист
+1000,#MSG_GROUP_SAVE#,10,Hayir  ,No ,Нет,Ні
+1000,#MSG_GROUP_SAVE#,10,Yedekle,Backup,Резерв.,Резерв.
+1000,#MSG_GROUP_SAVE#,10,Kullan ,Use,Использ,Викорис
+1000,#MSG_GROUP_PRESSURE#,10,Pasif,Passive,Пассивныи,Пасивний
+1000,#MSG_GROUP_PRESSURE#,10,Adim,Step,Шаг,Крок
+1000,#MSG_GROUP_PRESSURE#,10,Egim,Slope,Склон,Slope
+1000,#MSG_GROUP_COMPANSATION#,10,Pasif,Passive,Пассивныи,Пасивний
+1000,#MSG_GROUP_COMPANSATION#,10,Aktif,Active,Активныи,Активний
+1000,#MSG_GROUP_HORNMODE#,10,Surekli,Continuous,Непрерывнo,Безперер
+1000,#MSG_GROUP_HORNMODE#,10,Darbeli,Pulse,Импульс,Імпульс
+1000,#MSG_GROUP_LANGUAGE#,10,Turkce   ,Turkish ,Tурецкии,Турецький
+1000,#MSG_GROUP_LANGUAGE#,10,ingilizce,English ,Aнглииски,Англійський
+1000,#MSG_GROUP_LANGUAGE#,10,K.Tanimli,U.Defined,Оп. Польз,Об.Корист
+1000,#MSG_GROUP_PASSERROR#,16,Hatali Sifre  ,Wrong Password,Неправ. Пароль,НевірнийПароль
+1000,#MSG_GROUP_PARAMTITLE#,16,Parametreler    ,Parameters,Параметры,Параметри
+1000,#MSG_GROUP_COMPCOUNTERS#,5,S/S =,S/S =,S/S =,S/S =
+1000,#MSG_GROUP_COMPCOUNTERS#,5,OLT =,OLT =,OLT =,OLT =
+1000,#MSG_GROUP_DYNPASS_OPTIONS#,9,Pasif,Passive,Пассивный,Пасивний
+1000,#MSG_GROUP_DYNPASS_OPTIONS#,9,Tales,Thales,История,Історія
+1000,#MSG_GROUP_DYNPASS_OPTIONS#,9,Kopernik,Copernicus,Коперник,Copernicus
+1000,#MSG_GROUP_DYNPASS_OPTIONS#,9,Galileo,Galileo,Галилео,Galileo
+1000,#MSG_GROUP_DYNPASS_OPTIONS#,9,Kepler,Kepler,Кеплер,Kepler
+1000,#MSG_GROUP_DYNPASS_OPTIONS#,9,Newton,Newton,Ньютон,Newton
+1000,#MSG_GROUP_DYNPASS_OPTIONS#,9,Orsted,Orsted,Эрстед,Orsted
+1000,#MSG_GROUP_DYNPASS_OPTIONS#,9,Ampera,Ampera,Ампер,Ampera
+1000,#MSG_GROUP_DYNPASS_OPTIONS#,9,Lenz,Lenz,Ленц,Lenz
+1000,#MSG_GROUP_DYNPASS_OPTIONS#,9,Faraday,Faraday,Фарадей,Faraday
+1000,#MSG_GROUP_DYNPASS_OPTIONS#,9,Maxwell,Maxwell,Максвелл,Maxwell
+1000,#MSG_GROUP_PASSWORD_CODE#,9,Kod:,Code:,Код:,Код:
+1000,#MSG_GROUP_PSWD_CODE_OPT#,13,Kullanici,User,Пользователь,Користувач
+1000,#MSG_GROUP_PSWD_CODE_OPT#,13,Servis,Service,Сервисный,Сервісний
+1000,#MSG_GROUP_PSWD_CODE_OPT#,13,Fabrika,Factory,Заводской,Заводс.
+1000,#MSG_GROUP_INV_MODEL#,10,Yld-Ucgen,StarDelta,,StarDelta
+1000,#MSG_GROUP_INV_MODEL#,10,MITF800,MITF800,,MITF800
+1000,#MSG_GROUP_INV_MODEL#,10,ACS580,ACS580,,ACS580
+1000,#MSG_GROUP_INV_MODEL#,10,Ykw.A1000,Ykw.A1000,,Ykw.A1000
+1000,#MSG_GROUP_INV_MODEL#,10,DnfsFC102,DnfsFC102,,DnfsFC102
+2004,#MSG_GROUP_CPCA#,16,Calisma Modu    ,Operating Mode,,Режим роботи
+2004,#MSG_GROUP_CPCA#,5,P266>,P266>,P266>,P266>
+2004,#MSG_GROUP_CPCA#,16,Cihaz ID,Unit ID,,Unit ID
+2004,#MSG_GROUP_CPCA#,5,P267>,P267>,P267>,P267>
+2004,#MSG_GROUP_CPCA#,16,Yaslanma Cznrlk.,Aging Resolution,,Aging Resolution
+2004,#MSG_GROUP_CPCA#,5,P268>,P268>,P268>,P268>
+2004,#MSG_GROUP_CPCA#,16,Dinlenme Zamani,Rest Time,,Rest Time
+2004,#MSG_GROUP_CPCA#,5,P269>,P269>,P269>,P269>
+2004,#MSG_GROUP_CPCA#,16,Max Calisma,Max Run Time,,Макс. Час роботи
+2004,#MSG_GROUP_CPCA#,5,P270>,P270>,P270>,P270>
+2004,#MSG_GROUP_CPCA#,16,Ofset Zamani,Time Offset,,Time Offset
+2004,#MSG_GROUP_CPCA#,5,P271>,P271>,P271>,P271>
+2004,#MSG_GROUP_CPCA#,16,Zaman Asimi,Timeout,,Timeout
+2004,#MSG_GROUP_CPCA#,5,P272>,P272>,P272>,P272>
+2004,#MSG_GROUP_CPCA#,16,Hedef Sure,Target Time,,Цільовий час
+2004,#MSG_GROUP_CPCA#,5,P273>,P273>,P273>,P273>
+2004,#MSG_GROUP_CPCA#,16,Devreye Alma,Working Query,,Робочий запит
+2004,#MSG_GROUP_CPCA#,5,P274>,P274>,P274>,P274>
+2004,#MSG_GROUP_CPCA#,16,Devreden Cikma,Stopping Query,,Зупинка запит
+2004,#MSG_GROUP_CPCA#,5,P275>,P275>,P275>,P275>
+2004,#MSG_GROUP_CPCA#,16,BosaGecmeOfset,P-Idle Offset,,P-Idle Offset
+2004,#MSG_GROUP_CPCA#,5,P276>,P276>,P276>,P276>
+2004,#MSG_GROUP_CPCA#,16,Top.CihazSayisi,Total Units,,Всього одиниць
+2004,#MSG_GROUP_CPCA#,5,P277>,P277>,P277>,P277>
+2004,#MSG_GROUP_CPCA#,16,EsZamanliCihaz,Concurrent Units,,Паралел одиниці
+2004,#MSG_GROUP_CPCA#,5,P278>,P278>,P278>,P278>
+2004,#MSG_GROUP_CPCA_MON#,3,ID:,ID:,,ID:
+2004,#MSG_GROUP_CPCA_MON#,4,Yas:,Age:,,Age:
+2004,#MSG_GROUP_CPCA_MON#,6,Durum:,State:,,State:
+2004,#MSG_GROUP_CPCA_STATE#,9,SENKRON,SYNCING,,Синхрон
+2004,#MSG_GROUP_CPCA_STATE#,9,BLOKLU,BLOCKED,,Заблок
+2004,#MSG_GROUP_CPCA_STATE#,9,HATA,FAULT,,Помилка
+2004,#MSG_GROUP_CPCA_STATE#,9,HAZIR,STANDBY,,Очікув
+2004,#MSG_GROUP_CPCA_STATE#,9,DINLENME,RESTING,,Відпоч
+2004,#MSG_GROUP_CPCA_STATE#,9,BASLAMA,STARTING,,Запуск
+2004,#MSG_GROUP_CPCA_STATE#,9,GECIS,TRANSFER,,Передача
+2004,#MSG_GROUP_CPCA_STATE#,9,CALISMA,RUNNING,,В роботі
+2004,#MSG_GROUP_CPCA_MODE#,10,E.Yaslan,E.Aging,,E.Aging
+2004,#MSG_GROUP_CPCA_MODE#,10,Ener.Ts.,P. Save,,P. Save
