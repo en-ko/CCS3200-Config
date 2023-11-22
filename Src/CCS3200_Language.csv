@@ -21,17 +21,17 @@ Device_Version,Description,Max_Char,TR,EN,RU,UKR
 1000,#MSG_GROUP_COMPSTATE#,12,Oto. Bekleme,Auto Waiting,Авто ожидан,Авто Очік
 1000,#MSG_GROUP_COMPSTATE#,12,Motor Yolver,Motor Start,Старт двиг.,СтартДвигун
 1000,#MSG_GROUP_COMPSTATE#,12,BOSTA (S.Kalkis),IDLE (SSL)      ,Мак кол пуск,Макс кіл.зап
-1000,#MSG_GROUP_PARAMS#,16,Basinc,Pressure,Давление,Тиск
-1000,#MSG_GROUP_PARAMS#,16,Zamanlama,Timer,Таимер,Таймер
-1000,#MSG_GROUP_PARAMS#,16,Dijital Giris,Digital Inputs,Цифр. входы,Цифр. Входи
-1000,#MSG_GROUP_PARAMS#,16,Dijital Cikis,Digital Outputs,Цифр выходы,Цифр.Виходи
-1000,#MSG_GROUP_PARAMS#,16,Bakım Sureleri,Maint. Timer,Таимеры ТО,Таймери ТО
-1000,#MSG_GROUP_PARAMS#,16,Kalibrasyon,Calibration,Калибровка,Калібруван
-1000,#MSG_GROUP_PARAMS#,16,Sicaklik,Temperature,Температура,Температура
-1000,#MSG_GROUP_PARAMS#,16,Sebeke,Mains Supply,Питание сети,Живлення
-1000,#MSG_GROUP_PARAMS#,16,Genel Ayarlar,General Settings,Общие настр.,Загальні нал
-1000,#MSG_GROUP_PARAMS#,16,Invertor Ayar,Inverter Sets. ,инвертор настр.,Інвертор нал
-2004,#MSG_GROUP_PARAMS#,16,Par. Kontrol,Par. Control,Par. Control,Пар.Контроль
+1000,#MSG_GROUP_PARAMS#,14,Basinc,Pressure,Давление,Тиск
+1000,#MSG_GROUP_PARAMS#,14,Zamanlama,Timer,Таимер,Таймер
+1000,#MSG_GROUP_PARAMS#,14,Dijital Giris,Digital Inputs,Цифр. входы,Цифр. Входи
+1000,#MSG_GROUP_PARAMS#,14,Dijital Cikis,Digital Outputs,Цифр выходы,Цифр.Виходи
+1000,#MSG_GROUP_PARAMS#,14,Bakım Sureleri,Maint. Timer,Таимеры ТО,Таймери ТО
+1000,#MSG_GROUP_PARAMS#,14,Kalibrasyon,Calibration,Калибровка,Калібруван
+1000,#MSG_GROUP_PARAMS#,14,Sicaklik,Temperature,Температура,Температура
+1000,#MSG_GROUP_PARAMS#,14,Sebeke,Mains Supply,Питание сети,Живлення
+1000,#MSG_GROUP_PARAMS#,14,Genel Ayarlar,General Settings,Общие настр.,Загальні нал
+1000,#MSG_GROUP_PARAMS#,14,Invertor Ayar,Inverter Sets. ,инвертор настр.,Інвертор нал
+2004,#MSG_GROUP_PARAMS#,14,Par. Kontrol,Par. Control,Par. Control,Пар.Контроль
 1006,#MSG_GROUP_PRESS#,16,Basinc Sens. Tip ,Press.Sensor Typ ,Тип датчи. давл.,Тип датчик тис.
 1006,#MSG_GROUP_PRESS#,5,P001>,P001>,P001>,P001>
 1000,#MSG_GROUP_PRESS#,16,Bosa Gecme Bsn. ,Stop Pressure   ,Давл. остан.,Тиск зупинки
