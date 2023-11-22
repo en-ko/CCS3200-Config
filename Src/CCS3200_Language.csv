@@ -546,9 +546,9 @@ Device_Version,Description,Max_Char,TR,EN,RU,UKR
 2004,#MSG_GROUP_CPCA#,5,P277>,P277>,P277>,P277>
 2004,#MSG_GROUP_CPCA#,16,EsZamanliCihaz,Concurrent Units,Concurrent Units,Паралел одиниці
 2004,#MSG_GROUP_CPCA#,5,P278>,P278>,P278>,P278>
-2004,#MSG_GROUP_CPCA_MON#,3,ID:,ID:,ID:,ID:
-2004,#MSG_GROUP_CPCA_MON#,4,Yas:,Age:,Age:,Age:
-2004,#MSG_GROUP_CPCA_MON#,6,Durum:,State:,State:,State:
+2004,#MSG_GROUP_CPCA_MON#,3,ID:    ,ID:    ,ID:    ,ID:    
+2004,#MSG_GROUP_CPCA_MON#,4,Yas:   ,Age:   ,Age:   ,Age:    
+2004,#MSG_GROUP_CPCA_MON#,6,Durum: ,State: ,State: ,State: 
 2004,#MSG_GROUP_CPCA_STATE#,9,SENKRON,SYNCING,SYNCING,Синхрон
 2004,#MSG_GROUP_CPCA_STATE#,9,BLOKLU,BLOCKED,BLOCKED,Заблок
 2004,#MSG_GROUP_CPCA_STATE#,9,HATA,FAULT,FAULT,Помилка
