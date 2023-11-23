@@ -1,0 +1,614 @@
+#START#
+#MSG_GROUP_SUPPLY#
+PoWer  =
+SenSor =
+#MSG_GROUP_PHASE#
+Vr =
+Vs =
+Vt =
+Fr =
+#MSG_GROUP_COMPSTATE#
+WILL STOP
+HIGH SCREW
+PREHEAT OFLD
+PREHEAT ONLD
+START DELAY
+IDLE
+AIR DISCHRG
+STOPPED
+PASS ONLOAD
+ONLOAD
+IDLE
+IDLE
+Auto Waiting
+Motor Start
+IDLE (SSL)
+#MSG_GROUP_PARAMS#
+Pressure
+Timings
+Inputs 
+Outputs
+Service Times
+Calibration
+Temperature
+Mains
+General Setts.
+Inverter Sets.
+Par. Control / Par. Kontrol
+#MSG_GROUP_PRESS#
+Reserved
+P001>
+Idle Pressure
+P002>
+Onload Pressure
+P003>
+Line Alarm Value
+P004>
+Line Warn Value
+P005>
+Screw Sensor
+P006>
+Min Screw Press
+P007>
+ScrewPress Alarm
+P008>
+ScrewPress Warn
+P009>
+Pressure Unit
+P010>
+DeltaPress Alarm
+P011>
+DeltaPress Warn
+P012>
+SufficiencyPress
+P013>
+Stand.Press Load
+P014>
+#MSG_GROUP_TIME#
+Start Delay
+P021>
+Stopping Time
+P022>
+Air Discharge
+P023>
+Idle Working
+P024>
+PassAgain Onload
+P025>
+Auto Waiting
+P026>
+Power Cut
+P027>
+Star Duration
+P028>
+Main Contactor
+P029>
+Triangle  Trans.
+P030>
+Preheat Onload
+P031>
+Preheat Idle
+P032>
+Line Press Fault
+P033>
+ScrewPress Fault
+P034>
+DeltaPress Fault
+P035>
+Fan Min Working
+P036>
+Dryer Duration
+P037>
+Sufficiency
+P038>
+Horn Duration
+P039>
+Gorev 1SaniyePer
+P040>
+Booster Delay
+P041>
+#MSG_GROUP_INPUT#
+DI  -Function
+P   >
+DI  -Delay
+P   >
+DI  -Contactor
+P   >
+DI  -Type
+P   >
+#MSG_GROUP_OUTPUT#
+DO  -Function
+P   >
+DO  -Delay
+P   >
+DO  -Contactor
+P   >
+DO  -Type
+P   >
+#MSG_GROUP_SERVICE#
+General Maint.
+P140>
+Roller Maint.
+P141>
+OilChange Maint.
+P142>
+AirFilter Maint.
+P143>
+OilFilter Maint.
+P144>
+SepFilter Maint.
+P145>
+Reserved2 Maint.
+P146>
+Reserved3 Maint.
+P147>
+Alarm Activation
+P148>
+Maintaince Reset
+P149>
+#MSG_GROUP_SERVICE_RESET#
+None      
+General   
+Roller    
+OilChange 
+Air Filter
+Oil Filter
+Sep.Filter
+#MSG_GROUP_SERVICELEFT#
+General Maint.
+P140>
+Roller Maint.
+P141>
+OilChange Maint.
+P142>
+AirFilter Maint.
+P143>
+OilFilter Maint.
+P144>
+SepFilter Maint.
+P145>
+Total Worked
+Pnon>
+Onload Worked
+Pnon>
+#MSG_GROUP_CALIB#
+LinePress Offset
+P150>
+LinePress Gain  
+P151>
+LinePress Limit 
+P152>
+ScrwPress Offset
+P153>
+ScrwPress Gain  
+P154>
+ScrwPress Limit 
+P155>
+Temperat. Offset
+P156>
+Temperat. Gain  
+P157>
+Vr Offset       
+P158>
+Vr Gain         
+P159>
+Vs Offset       
+P160>
+Vs Gain         
+P161>
+Vt Offset       
+P162>
+Vt Gain         
+P163>
+#MSG_GROUP_TEMP#
+Temp1 High Alarm
+P172>
+Temp1 High Warn 
+P173>
+Temp1 Low Alarm 
+P174>
+Temp1 Low Warn  
+P175>
+Preheat Limit   
+P176>
+Temp1 SensorType
+P177>
+Temperature Unit
+P178>
+Fan Start       
+P179>
+Fan Stop        
+P180>
+Dryer Start
+P181>
+Dryer Stop
+P182>
+PTC Activate    
+P183>
+Temp2 High Alarm
+P184>
+Temp2 High Warn 
+P185>
+Temp2 Low Alarm 
+P186>
+Temp2 Low Warn  
+P187>
+Temp2 SensorType
+P188>
+Temp2 SensorMode
+P189>
+Press Comp.Temp.
+P190>
+Oil Freeze Prvnt
+P191>
+#MSG_GROUP_MAINS#
+Unbalance       
+P200>
+Volt Low Alarm  
+P201>
+Volt Low Warn   
+P202>
+Volt High Alarm 
+P203>
+Volt High Warn  
+P204>
+Freq Low Alarm  
+P205>
+Freq Low Warn   
+P206>
+Freq High Alarm 
+P207>
+Freq High Warn  
+P208>
+Connection Type 
+P209>
+PhaseSeq Protect
+P210>
+Mains Faults    
+P211>
+#MSG_GROUP_MAINSTYPE#
+1Ph+N   
+3Ph+N   
+3Ph     
+#MSG_GROUP_GENERAL#
+Factory Password
+P220>
+Service Password
+P221>
+User Password   
+P222>
+ENKO Password   
+P223>
+Maximum Startup 
+P224>
+Start Source        
+P225>
+Working Mode    
+P226>
+Idle Time S/D   
+P227>
+Horn Mode       
+P228>		
+PressLose Preve.
+P229>
+Parameter Save  
+P230>
+Reserved        
+P231>		
+Language        
+P232>
+Return Factory  
+P233>
+ClearFaultRecord
+P234>
+Motor Time Clear
+P235>
+Menu Logout Time
+P236>
+Menu Logout     
+P237>
+Dynamic Password
+P238>
+Motor Drive
+P239>
+Machn. Ser. No
+P340>
+#MSG_GROUP_PARAMS_INVERTER#
+Frequency Min.
+P250>
+Frequency Max.
+P251>
+Frequency Rated
+P252>
+Ramp Up Time
+P253>
+Ramp Down Time
+P254>
+Pole Pair
+P255>
+Current Rated
+P256>
+Voltage Rated
+P257>
+Power Factor
+P258>
+Power Capacity
+P259>
+#MSG_GROUP_PASS#
+Password: 
+#MSG_GROUP_SENSORTYPE#
+None    
+Analog  
+Digital 
+#MSG_GROUP_PRESSUNIT#
+BAR
+PSI
+#MSG_GROUP_TEMPUNIT#
+C
+F
+#MSG_GROUP_ACTIVATE#
+Passive
+Active 
+#MSG_GROUP_TEMPSENSOR#
+NTC
+KTY81
+PT1000
+KTY13.5
+#MSG_GROUP_TEMPSENSOR2MODE#
+Off   
+Normal
+Diff  
+#MSG_GROUP_INPUTFUNC#
+None
+EmerStp
+Seperat.
+OilPres.
+PhaseSeq
+MThermic
+FThermic
+RemoteSS
+StartBtn
+StopBtn
+RemoteLD
+PTC
+Aux-1
+Aux-2
+Ln Switch
+Sc Switch
+FaultClear
+Door Open
+Low Press.
+#MSG_GROUP_OUTPUTFUNC#
+None
+MainCon
+StarCon
+TriaCon
+LoadVal
+Red Al
+Yell.Al
+Alarm
+Fan
+OnLoad
+OffLoad
+Working
+Stopping
+Horn
+Dryer-Time
+Dryer-T2
+RSS Active
+T.Low Al
+T.Up Al
+T.Low Wa
+T.Up Wa
+P1 Fault
+P2 Fault
+T1 Fault
+T2 Fault
+T2 L.Fault
+T2 H.Fault
+T2 L.Warn 
+T2 H.Warn 
+#MSG_GROUP_INPUTPOLARITY#
+NO
+NC
+#MSG_GROUP_OUTPUTPOLARITY#
+NO
+NC
+#MSG_GROUP_INPUTTYPE#
+Logic
+Rising
+Falling
+Both
+#MSG_GROUP_OUTPUTTYPE#
+Logic
+Rising
+Falling
+Both
+#MSG_GROUP_STARTRESOURCE#
+PAN-DI-MBS
+Panel     
+DigitalInp
+ModbusRTU
+DI-Modbus
+#MSG_GROUP_COMP_MODE#
+Manual
+Auto
+Parallel / Paralel
+#MSG_GROUP_STATE#
+Fault Logs
+Service Times
+Phase Volts
+Digital I/O
+Supply Voltages
+Comp. Counters
+Device Info
+Inverter Monitor
+Paralel Kontrol
+#MSG_GROUP_FAULTS#
+Line Press Warn
+Screw Press Warn
+Delta Press Warn
+Temp1 Upper Warn
+Temp1 Down Warn
+Power Intrpt
+Service Level1
+Temp2 Upper Warn
+Temp2 Down Warn
+Vr High Warn
+Vs High Warn
+Vt High Warn
+Vr Low Warn
+Vs Low Warn
+Vt Low Warn
+Freq High Warn
+Freq Low Warn
+Motor Thermic
+Seperator Filter
+Fan Thermic
+Phase Seq - DI
+Emergency Stop
+Line Alarm
+Screw Alarm
+DeltaPress Alarm
+Temp1Upper Alarm
+Temp1 Down Alarm
+Custom Fault1
+Custom Fault2
+Maximum Startup
+Line Sens Broken
+ScrewSens Broken
+Reached MinPress
+Service Level2
+Service Level3
+Service Level4
+Service Level5
+Vr High Alarm
+Vs High Alarm
+Vt High Alarm
+Vr Low Alarm
+Vs Low Alarm
+Vt Low Alarm
+Phase Seq - AI
+PTC Fault
+Emergency Stop
+Temp1 Broken
+Temp2 Broken
+Temp2Upper Alarm
+Temp2 Down Alarm
+Freq High Alarm
+Freq Low Alarm
+Phase Unbalance
+Oil Pressure
+Inver. Com. Alrm
+Inver. Gen. Alrm
+Door Open Alarm
+ID Conflict / Cakisma Hata-ID
+P-Load Conflict / Cakisma Hata-Yuk
+P-Idle Conflict / Cakisma Hata-Bos
+Low Press. Alarm
+#MSG_GROUP_ALARM#
+No Alarm
+#MSG_GROUP_UNITS#
+ms
+sec
+min
+hr
+#MSG_GROUP_YESNO#
+No
+Yes
+#MSG_GROUP_FACPARAMS#
+No
+ENKO
+USB-MSC
+#MSG_GROUP_SAVE#
+No
+Backup
+Use
+#MSG_GROUP_PRESSURE#
+None
+Step
+Slope
+#MSG_GROUP_COMPANSATION#
+Static
+Dynamic
+#MSG_GROUP_HORNMODE#
+Continuous
+Pulse
+#MSG_GROUP_LANGUAGE#
+Turkish
+English
+U.Defined
+#MSG_GROUP_PASSERROR#
+ Wrong Password
+#MSG_GROUP_PARAMTITLE#
+Parameters
+#MSG_GROUP_COMPCOUNTERS#
+S/S =
+OLT =
+#MSG_GROUP_DYNPASS_OPTIONS#
+Passive
+Thales
+Copernicus
+Galileo
+Kepler
+Newton
+Orsted
+Ampera
+Lenz
+Faraday
+Maxwell
+#MSG_GROUP_PASSWORD_CODE#
+Code:
+#MSG_GROUP_PSWD_CODE_OPT#
+User
+Service
+Factory
+#MSG_GROUP_INV_MODEL#
+StarDelta
+MITF800
+ACS580
+Ykw.A1000
+DnfsFC102
+#MSG_GROUP_CPCA#
+Operating Mode / Calisma Modu
+P266>
+Unit ID / Cihaz ID
+P267>
+Min. Run Time / Min Calisma  
+P268>
+Rest Time / Dinlenme Zamani
+P269>
+Max. Run Time / Max Calisma 
+P270>
+Time Offset / Ofset Zamani
+P271>
+Timeout / Zaman Asimi 
+P272>
+Target Time / Hedef Sure
+P273>
+Working Query / Devreye Alma 
+P274>
+Stoping Query / Devreden Cikma
+P275>
+P-Idle Offset / BosaGecmeOfset
+P276>
+Total Units / Top.CihazSayisi
+P277>
+Concurrent Units / EsZamanliCihaz
+P278>
+#MSG_GROUP_CPCA_MON#
+ID: / ID:
+Age: / Yas:
+State: / Durum:
+#MSG_GROUP_CPCA_STATE#
+SYNCING / SENKRON
+BLOCKED / BLOKLU
+FAULT / HATA
+STANDBY / HAZIR
+RESTING / DINLENME
+STARING / BASLAMA
+TRANSFER / GECIS
+RUNNING / CALISMA
+#MSG_GROUP_CPCA_MODE#
+E.Aging
+P. Save

@@ -1,0 +1,59 @@
+[
+    {
+        "header" : "#MSG_GROUP_SUPPLY#",
+        "deviceVersiyon" : 1000,
+        "maxChar" : 7,
+        "TR" :"Besleme",
+        "ENG" : "Power"
+    },
+    {
+        "header" : "#MSG_GROUP_SUPPLY#",
+        "deviceVersiyon" : 1000,
+        "maxChar" : 7,
+        "TR" :"Sensor",
+        "ENG" : "Sensor"
+    },
+    {
+        "header" : "#MSG_GROUP_PHASE#",
+        "deviceVersiyon" : 1000,
+        "maxChar" : 4,
+        "TR" :"Vr =",
+        "ENG" : "Vr ="
+    },
+    {
+        "header" : "#MSG_GROUP_PHASE#",
+        "deviceVersiyon" : 1000,
+        "maxChar" : 4,
+        "TR" :"Vs =",
+        "ENG" : "Vs ="
+    },
+    {
+        "header" : "#MSG_GROUP_PHASE#",
+        "deviceVersiyon" : 1000,
+        "maxChar" : 4,
+        "TR" :"Vt =",
+        "ENG" : "Vt ="
+    },
+    {
+        "header" : "#MSG_GROUP_PHASE#",
+        "deviceVersiyon" : 1000,
+        "maxChar" : 4,
+        "TR" :"Fr =",
+        "ENG" : "Fr ="
+    },
+    {
+        "header" : "#MSG_GROUP_COMPSTATE#",
+        "deviceVersiyon" : 1000,
+        "maxChar" : 12,
+        "TR" :"DURACAK",
+        "ENG" : "STOPPING"
+    },
+    {
+        "header" : "#MSG_GROUP_COMPSTATE#",
+        "deviceVersiyon" : 1000,
+        "maxChar" : 12,
+        "TR" :"IC BAS.YUKS.",
+        "ENG" : "HIGH INT.PR."
+    }
+    
+]
