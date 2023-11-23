@@ -25,7 +25,7 @@ Device_Version,Description,Max_Char,TR,EN,RU,UKR
 1000,#MSG_GROUP_PARAMS#,14,Zamanlama,Timer,Таимер,Таймер
 1000,#MSG_GROUP_PARAMS#,14,Dijital Giris,Digital Inputs,Цифр. входы,Цифр. Входи
 1000,#MSG_GROUP_PARAMS#,14,Dijital Cikis,Dig. Outputs,Цифр выходы,Цифр.Виходи
-1000,#MSG_GROUP_PARAMS#,14,Bakım Sureleri,Maint. Timer,Таимеры ТО,Таймери ТО
+1000,#MSG_GROUP_PARAMS#,14,Bakim Sureleri,Maint. Timer,Таимеры ТО,Таймери ТО
 1000,#MSG_GROUP_PARAMS#,14,Kalibrasyon,Calibration,Калибровка,Калібруван
 1000,#MSG_GROUP_PARAMS#,14,Sicaklik,Temperature,Температура,Температура
 1000,#MSG_GROUP_PARAMS#,14,Sebeke,Mains,Питание сети,Живлення
@@ -286,7 +286,7 @@ Device_Version,Description,Max_Char,TR,EN,RU,UKR
 1000,#MSG_GROUP_GENERAL#,5,P233>,P233>,P233>,P233>
 1000,#MSG_GROUP_GENERAL#,16,Ariza Kayit Sil ,Reset Alarm Rec.,СбросЗаписеиТрев,СкидПерелікТрив
 1000,#MSG_GROUP_GENERAL#,5,P234>,P234>,P234>,P234>
-1000,#MSG_GROUP_GENERAL#,16,Çalışma Zam.Res.,WorkHours Reset,СбросЧасовРаботы,СкидГодинРоботи
+1000,#MSG_GROUP_GENERAL#,16,Calisma Zam.Res.,WorkHours Reset,СбросЧасовРаботы,СкидГодинРоботи
 1000,#MSG_GROUP_GENERAL#,5,P235>,P235>,P235>,P235>
 1000,#MSG_GROUP_GENERAL#,16,Menu Logout Sure,Menu Logout Time,Врем Вых из меню,Час Вих з Меню
 1000,#MSG_GROUP_GENERAL#,5,P236>,P236>,P236>,P236>
