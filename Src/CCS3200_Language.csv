@@ -1,5 +1,5 @@
 Device_Version,Description,Max_Char,TR,EN,RU,UKR,FR
-1002,1002,1002,1002,1002,1002,1002,1002
+1003,1003,1003,1003,1003,1003,1003,1003
 2011,2011,2011,2011,2011,2011,2011,2011
 1000,#MSG_GROUP_SUPPLY#,7,Besleme,Power  ,Питание,Живл.,Power
 1000,#MSG_GROUP_SUPPLY#,7,Sensor ,Sensor ,Датчик,Датчик,Capteur
